@@ -1,66 +1,33 @@
-# D-Lab Claude Code Workshop
+# D-Lab AI Pulse: Spring 2026
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This repository contains the materials for D-Lab's Claude Code AI Pulse workshop.
+AI Pulse is UC Berkeley D-Lab's bi-weekly workshop series on AI tools for research and academia. Each 50-minute session features a live demo (~30 min) followed by open discussion (~20 min).
+
+## Workshop Schedule
+
+| Date | Session | Theme | Primary Tools |
+|------|---------|-------|---------------|
+| 2026-01-27 | 1 | Coding AI | Claude Code, Gemini CLI |
+| 2026-02-10 | 2 | Scientific AI | Perplexity, Consensus, Elicit, Kosmos |
+| TBD | 3 | Learning, Synthesis & Teaching | NotebookLM, Illuminate |
+| TBD | 4 | AI for Data Analysis | Julius |
+| TBD | 5 | Productivity & Workflow | Otter, Granola, Writefull |
+| TBD | 6 | Running Your Own AI | Ollama, GPT4All, LM Studio |
+| TBD | 7 | Customizing Your AI | Custom GPTs, Claude Projects, Gems |
 
 ## Prerequisites
 
-No prior experience with CLI tools required!
+No prior experience with AI tools required!
 
 Check out D-Lab's [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops.
 
-## Workshop Goals
-
-This hands-on workshop introduces Claude Code, Anthropic's command-line interface for AI-assisted coding. You will learn how CLI-based AI tools differ from browser chat interfaces, how to configure Claude Code for your projects, and see practical demonstrations of code generation, documentation, and refactoring. Participants will leave with practical skills for integrating AI coding assistants into their research workflows.
-
-## Learning Objectives
-
-After completing this workshop, you will be able to:
-
-1. **Understand CLI vs Browser AI tools** - Recognize when to use command-line tools (multi-file projects, direct file manipulation) versus web interfaces (quick questions, conceptual explanations).
-
-2. **Install and configure Claude Code** - Set up the CLI tool and customize it for your projects using CLAUDE.md files and configuration options.
-
-3. **Navigate models and context** - Understand different model options (Opus, Sonnet, Haiku) and manage conversation context effectively.
-
-4. **Generate code from specifications** - Use Claude Code to create new code modules with proper structure and documentation.
-
-5. **Document existing codebases** - Leverage Claude Code to read and understand unfamiliar code, generating documentation and explanations.
-
-6. **Refactor and improve code** - Use AI assistance to clean up messy code, improve structure, and add error handling.
-
-7. **Use subagents for verification** - Spawn subagents to independently verify results and catch errors through parallel review.
-
-## Workshop Structure (~30 minutes)
-
-1. **Introduction to CLI** (5 min) - What is a CLI, browser vs CLI differences
-2. **Installation & Setup** (2 min) - Quick installation, first run
-3. **Customization** (5 min) - CLAUDE.md, models, context, subagents
-4. **Demo 1: Linear Regression** (5 min) - Building code from scratch
-5. **Demo 2: Julia Documentation** (5 min) - Reading and documenting existing code
-6. **Demo 3: Refactoring** (5 min) - Cleaning up a messy PhD codebase
-7. **Demo 4: Data Consolidation** (bonus) - Merging economic data with subagent verification
-8. **Q&A** (remaining time)
-
-## Installation
-
-**Prerequisites:**
-- Node.js (download from [nodejs.org](https://nodejs.org/))
-- Windows users: WSL (run `wsl --install` in PowerShell)
-
-**Install Claude Code:**
-```bash
-npm install -g @anthropic-ai/claude-code
-claude
-```
-
 ## Resources
 
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Claude.ai](https://claude.ai/) (Pro/Team subscription includes Claude Code)
-- [Gemini](https://gemini.google.com/) (Free for Berkeley accounts!)
 - [D-Lab](https://dlab.berkeley.edu/)
+- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
+- [Claude.ai](https://claude.ai/)
+- [Gemini](https://gemini.google.com/) (Free for Berkeley accounts!)
 
 ---
 

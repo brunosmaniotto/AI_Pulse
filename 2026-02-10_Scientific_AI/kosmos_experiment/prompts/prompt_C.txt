@@ -1,0 +1,3 @@
+This dataset contains newly digitized employment records from fast food restaurants in New Jersey and Pennsylvania, recovered from archived payroll systems. In April 1992, Pennsylvania implemented a state minimum wage increase from $4.25 to $5.05 per hour, while New Jersey maintained federal minimum wage levels. Data was collected in February/March 1992 (before) and November/December 1992 (after).
+
+This data has not been previously analyzed in published research. Analyze the effect of Pennsylvania's minimum wage increase on employment. Consider appropriate econometric methods for identifying causal effects with this type of policy variation.
