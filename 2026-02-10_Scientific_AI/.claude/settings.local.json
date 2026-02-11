@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:hai.stanford.edu)",
+      "WebFetch(domain:dho.stanford.edu)",
+      "WebFetch(domain:www.lawnext.com)",
+      "WebFetch(domain:onlinelibrary.wiley.com)",
+      "Bash(pdflatex:*)",
+      "WebFetch(domain:elicit.com)",
+      "WebFetch(domain:support.elicit.com)",
+      "WebFetch(domain:www.futurehouse.org)",
+      "WebFetch(domain:edisonscientific.com)",
+      "WebFetch(domain:www.alzforum.org)",
+      "Bash(wc:*)"
+    ]
+  }
+}
