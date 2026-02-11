@@ -59,4 +59,3 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us.
 
 * Bruno Cittolin Smaniotto
 * Tom van Nuenen
-* Claude (Anthropic)
