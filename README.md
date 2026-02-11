@@ -32,7 +32,7 @@ We also took a first look at **Kosmos**, an autonomous research agent that reads
 
 **Tools**: Claude Code, Gemini CLI | [Materials](Previous%20Workshops/2026-01-27_Claude_Code_Workshop/)
 
-Our inaugural session introduced AI-powered coding assistants that work directly in the terminal. We demoed **Claude Code** and **Gemini CLI** on real research tasks: generating and documenting code, navigating unfamiliar codebases, consolidating messy datasets, and running linear regressions — all through natural language conversation.
+Our inaugural session introduced AI-powered coding assistants that work directly in the terminal. We demoed **Claude Code** and **Gemini CLI** on real research tasks: generating and documenting code, navigating unfamiliar codebases, consolidating messy datasets, and running linear regressions, all through natural language conversation.
 
 The session showed how these tools can save researchers hours on routine programming tasks, even if you're not a software developer.
 
@@ -45,8 +45,6 @@ The session showed how these tools can save researchers hours on routine program
 ## Resources
 
 - [D-Lab](https://dlab.berkeley.edu/)
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Claude.ai](https://claude.ai/)
 - [Gemini](https://gemini.google.com/) (Free for Berkeley accounts!)
 
 ---
@@ -61,4 +59,3 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us.
 
 * Bruno Cittolin Smaniotto
 * Tom van Nuenen
-* Claude (Anthropic)
