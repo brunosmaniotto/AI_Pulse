@@ -45,8 +45,6 @@ The session showed how these tools can save researchers hours on routine program
 ## Resources
 
 - [D-Lab](https://dlab.berkeley.edu/)
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Claude.ai](https://claude.ai/)
 - [Gemini](https://gemini.google.com/) (Free for Berkeley accounts!)
 
 ---
