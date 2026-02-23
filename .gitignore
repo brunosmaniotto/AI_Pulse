@@ -63,6 +63,9 @@ Previous Workshops/2026-02-10_Scientific_AI/690ac9c1d363c9893d2c868f_Screenshot_
 # Workshop scripts (presenter notes, not for public repo)
 workshop_script.md
 
+# Workshop images (referenced from slides but not needed in repo)
+AI for Teaching, Learning and Collaborating/karpathy_tweet.png
+
 # Current workshop LaTeX auxiliary files
 AI for Teaching, Learning and Collaborating/slides/*.aux
 AI for Teaching, Learning and Collaborating/slides/*.log
