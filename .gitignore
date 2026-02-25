@@ -64,16 +64,19 @@ Previous Workshops/2026-02-10_Scientific_AI/690ac9c1d363c9893d2c868f_Screenshot_
 workshop_script.md
 
 # Workshop images (referenced from slides but not needed in repo)
-AI for Teaching, Learning and Collaborating/karpathy_tweet.png
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/karpathy_tweet.png
 
-# Current workshop LaTeX auxiliary files
-AI for Teaching, Learning and Collaborating/slides/*.aux
-AI for Teaching, Learning and Collaborating/slides/*.log
-AI for Teaching, Learning and Collaborating/slides/*.nav
-AI for Teaching, Learning and Collaborating/slides/*.out
-AI for Teaching, Learning and Collaborating/slides/*.snm
-AI for Teaching, Learning and Collaborating/slides/*.toc
-AI for Teaching, Learning and Collaborating/slides/*.vrb
-AI for Teaching, Learning and Collaborating/slides/*.fdb_latexmk
-AI for Teaching, Learning and Collaborating/slides/*.fls
-AI for Teaching, Learning and Collaborating/slides/*.synctex.gz
+# Previous workshop LaTeX auxiliary files
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.aux
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.log
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.nav
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.out
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.snm
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.toc
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.vrb
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.fdb_latexmk
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.fls
+Previous Workshops/2026-02-24_Teaching_Learning_Collaborating/slides/*.synctex.gz
+
+# Current workshop (in progress, not ready for repo)
+LLMs for Qualitative Work/
