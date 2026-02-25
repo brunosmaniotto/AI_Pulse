@@ -8,17 +8,21 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (February 24, 2026): AI for Teaching, Learning and Collaborating
+## Next Workshop (March 10, 2026): LLMs for Qualitative Work
 
-**Tools**: NotebookLM, Notion, Mural, Otter
-
-How can AI help you learn, teach, and work with others? This session explores tools that turn your own documents into interactive learning experiences and streamline collaboration. We'll demo **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, and study guides from your papers and notes — answers come from your sources, not the internet. We'll also look at **Notion** for AI-assisted knowledge management, **Mural** for collaborative brainstorming, and **Otter** for meeting transcription and summaries.
-
-Whether you're a student preparing for exams, an instructor creating course materials, or a researcher synthesizing literature with collaborators, this session covers practical workflows you can use right away.
+Coming soon — details to follow.
 
 ---
 
 ## Previous Workshops
+
+### Session 3 (February 24, 2026): AI for Teaching, Learning and Collaborating
+
+**Tools**: NotebookLM, Khanmigo, Microsoft Study, SciSpace | [Materials](Previous%20Workshops/2026-02-24_Teaching_Learning_Collaborating/)
+
+How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
+
+We also discussed the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
 
 ### Session 2 (February 10, 2026): Scientific AI
 
@@ -38,7 +42,7 @@ The session showed how these tools can save researchers hours on routine program
 
 ---
 
-**Future Sessions**: AI for Data Analysis, Productivity & Workflow, Running Your Own AI, Customizing Your AI (Tentative)
+**Future Sessions**: LLMs for Qualitative Work, AI for Data Analysis, Productivity & Workflow, Running Your Own AI, Customizing Your AI (Tentative)
 
 ---
 
