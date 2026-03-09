@@ -1,0 +1,189 @@
+QUALITATIVE CODEBOOK: FOOD INSECURITY IN HIGHER EDUCATION
+Module 2 Demo – LLMs for Qualitative Work
+
+Created for analytical use in dialogical coding with Gemini
+
+---
+
+CODE 1: FINANCIAL STRAIN
+Definition: References to the actual or perceived lack of money, the difficult trade-offs between purchasing different necessities, or the experience of being unable to afford required goods or services. This includes situations where food security competes with other essential expenses.
+
+Inclusion Criteria:
+- Direct statements about lack of money or inadequate financial resources
+- Trade-offs or impossible choices between expenses (food vs. textbooks, food vs. rent)
+- Descriptions of the cost of necessities (meal plans, groceries, courses)
+- Feeling trapped by financial constraints
+
+Exclusion Criteria:
+- General statements about being "poor" without specific financial context
+- Emotional responses to financial strain (see: Stigma and Shame)
+- Discussion of coping strategies themselves (see: Coping Strategies)
+
+Example from transcript:
+"I had just registered for this lab class that cost like $150 for the materials, and I also needed the textbook for my organic chem course, which was over $200. And I remember sitting at my laptop with my shopping cart, and I had to pick—like, literally, I could afford the textbook OR I could like, eat regularly that month."
+
+---
+
+CODE 2: COPING STRATEGIES
+Definition: Concrete, active behaviors or techniques that the participant uses to manage food insecurity and ensure basic food access. These are pragmatic responses, including working, strategic shopping, seeking free food, meal planning, and leveraging social relationships for meals.
+
+Inclusion Criteria:
+- Specific actions taken to obtain food or stretch resources
+- Work or employment related to managing food costs
+- Strategic timing or planning around food access
+- Descriptions of cooking, meal-prepping, or shopping practices
+- Deliberate social behaviors aimed at obtaining meals
+
+Exclusion Criteria:
+- The emotional burden of these strategies (see: Stigma and Shame)
+- Reflection on the fairness of needing these strategies (see: Institutional Barriers)
+- Advocacy or systemic thinking about change (see: Agency and Advocacy)
+
+Example from transcript:
+"I've become like, really good at timing. So I learned pretty quickly that there are a ton of free food events on campus if you know where to look. Like, the environmental club—which I'm in—we have meetings on Thursdays, and there's always pizza. The engineering school does a lot of recruiting events with food. I've gotten to the point where I actually... I check the campus events calendar, and I'm like 'okay, where's free food happening this week?'"
+
+---
+
+CODE 3: STIGMA AND SHAME
+Definition: Negative emotional responses, feelings of embarrassment, humiliation, or self-blame related to food insecurity. Includes the fear of judgment by others, internalized shame, and distress about being perceived as needy or burdensome.
+
+Inclusion Criteria:
+- Expressions of shame, embarrassment, or self-blame
+- Fear of being judged by peers or others
+- Reluctance to admit or disclose food insecurity due to emotional discomfort
+- Internalizing financial struggle as a personal failure
+- Distress about appearing needy or taking help
+
+Exclusion Criteria:
+- Anger at systemic injustice (see: Agency and Advocacy)
+- Practical concerns about social consequences (see: Social Isolation)
+- Discussion of hiding behavior itself without emotional content (see: Social Support or Coping Strategies)
+
+Example from transcript:
+"I feel like I should be fine, you know? Like, I got into Berkeley, I'm doing well in my classes, I'm not like, struggling academically. So the fact that I can't afford food feels like... it shouldn't be my problem. Like, maybe I'm not smart enough with my money, or maybe I should just not be here if I can't afford it. I know that's not rational, but that's how it feels sometimes. Like, there's shame in it."
+
+---
+
+CODE 4: INSTITUTIONAL BARRIERS
+Definition: Structural constraints, policies, or systemic features of the university and higher education that create or exacerbate food insecurity. This includes the cost of meal plans, inadequate financial aid, expensive textbooks, and the disconnect between institutional pricing and student financial reality.
+
+Inclusion Criteria:
+- Critique of university policies, pricing, or systems
+- Discussion of how institutional structures prevent food access
+- References to inadequate financial aid or meal plan costs
+- Systemic problems that require institutional change
+- Observations about institutional awareness without action
+
+Exclusion Criteria:
+- Individual coping strategies (see: Coping Strategies)
+- Personal responsibility framing (see: Stigma and Shame)
+- Aspirational statements about change (see: Agency and Advocacy)
+
+Example from transcript:
+"Why is a food pantry run by students even necessary? Why isn't food adequately covered by financial aid? I use the pantry, and I'm grateful, but I'm also kind of angry about it, you know? Like, the University is obviously aware that students can't afford food—they literally have a pantry—but they're not solving the actual problem."
+
+---
+
+CODE 5: SOCIAL SUPPORT
+Definition: Relationships and connections with others—friends, family, mentors, or community organizations—that provide direct food, emotional encouragement, practical help, or a sense of belonging. This includes both received and desired support.
+
+Inclusion Criteria:
+- Friends or family offering meals or food access
+- Mentors (like professors) providing resources, referrals, or emotional support
+- Peer organizations or communities providing belonging and resources
+- Expressions of gratitude or appreciation for help
+- Description of supportive relationships
+
+Exclusion Criteria:
+- Discomfort with asking for help (see: Stigma and Shame)
+- Practical use of social situations as a coping strategy without emotional connection (see: Coping Strategies)
+- Isolation or lack of support (see: Social Support—but framed as absence)
+
+Example from transcript:
+"And one day after class, Professor Chen like, pulled me aside and asked if everything was okay... And she didn't like, solve my problems or give me money or anything, but she like, listened, and she made me feel like it wasn't shameful. She was like 'this is a real problem, and you're not alone, and there are resources.' And she actually connected me with a student organization that focuses on food justice and food access."
+
+---
+
+CODE 6: ACADEMIC IMPACT
+Definition: Direct effects of food insecurity on learning, course engagement, academic performance, and educational outcomes. Includes missed classes, reduced study time, difficulty concentrating, lower grades, and trade-offs between work and academics.
+
+Inclusion Criteria:
+- Food insecurity affecting ability to study or concentrate
+- Trade-offs between work hours (for food money) and academic engagement
+- Academic consequences of food insecurity
+- Mention of grades, focus, or course performance
+- Decisions made about course load or academic path due to financial pressure
+
+Exclusion Criteria:
+- General stress (see: Stigma and Shame)
+- Discussion of work as a coping strategy without academic impact (see: Coping Strategies)
+- Reflection on fairness of the situation (see: Institutional Barriers)
+
+Example from transcript:
+"I definitely have had semesters where I wanted to take on more hours for more money, but my GPA started slipping, and I was like, 'okay, that's not worth it. I need to graduate.' So it's like this constant negotiation, right? Do I work more and risk my grades, or do I work less and like, go hungry some weeks?"
+
+---
+
+CODE 7: FOOD ACCESS RESOURCES
+Definition: Specific programs, institutions, or channels through which the participant accesses food, including food pantries, dining facilities, free campus events, meal plans, and community services. Focus is on the resource itself and its accessibility, not the emotional experience of using it.
+
+Inclusion Criteria:
+- Specific mention of food pantry, meal plan, dining hall, or other resource
+- Information about availability and accessibility of resources
+- How to find or learn about resources
+- Logistical details about using resources
+- Information about gaps in available resources
+
+Exclusion Criteria:
+- Emotional responses to using resources (see: Stigma and Shame, Social Support)
+- Systemic critique of resources (see: Institutional Barriers)
+- Coping strategies that use resources (see: Coping Strategies)
+
+Example from transcript:
+"So I think it was like late sophomore year when I found out there was a food pantry on campus... And I've been back, like, once a month or so since then? And it's gotten easier each time. Like, the shame is less... Also, I think more students need to know about the food pantry. Like, I didn't know about it until sophomore year, almost by accident. If there was like, better outreach, more students could use it."
+
+---
+
+CODE 8: AGENCY AND ADVOCACY
+Definition: Moments where the participant moves from passive coping to active resistance, advocacy, or systemic thinking. Includes participation in activism, organizing, policy critique, and framing food insecurity as a justice issue rather than personal failing.
+
+Inclusion Criteria:
+- Participation in organizing or advocacy efforts
+- Systemic analysis of food insecurity as a justice issue
+- Efforts to change policy or raise awareness
+- Expressions of empowerment through activism
+- Shifts in perspective from individual responsibility to structural critique
+
+Exclusion Criteria:
+- Aspiration or wishful thinking without action (see: Institutional Barriers)
+- Frustration with lack of change (stays coded as frustration, not Agency)
+- General coping behaviors (see: Coping Strategies)
+
+Example from transcript:
+"And then we started doing like, awareness campaigns and advocacy stuff, which made me feel like I was doing something about it instead of just like, suffering in silence... And we're like, pushing the university on some of these issues now. We did a survey last semester about food insecurity, and we're trying to like, present the findings to administration. So there's actually a way to channel some of the frustration and anger into like, advocacy work, which feels better than just like, coping with it individually."
+
+---
+
+CODING NOTES FOR DEMO:
+
+1. OVERLAP AND AMBIGUITY:
+These codes often co-occur and sometimes overlap. For example:
+- Using the food pantry is both FOOD ACCESS RESOURCES and COPING STRATEGIES
+- Emotional responses to using resources blend STIGMA AND SHAME with SOCIAL SUPPORT
+- Institutional critique often appears alongside AGENCY AND ADVOCACY
+- The decision to work more hours involves FINANCIAL STRAIN, COPING STRATEGIES, and ACADEMIC IMPACT
+
+In dialogical coding, the task is to identify the primary focus and ask Gemini to justify where the emphasis lies.
+
+2. AMBIGUOUS PASSAGES:
+- "Not wanting to burden anyone" (guilt about eating at friends' homes) could be coded as: COPING STRATEGIES (the action of eating there), STIGMA AND SHAME (the guilt), or SOCIAL SUPPORT (the relationship). Context and sentence focus matter.
+- "I've gotten to the point where I check the campus events calendar" could be COPING STRATEGIES (the behavior) or AGENCY (taking control of the situation). The framing determines emphasis.
+- The food pantry discovery passage: FOOD ACCESS RESOURCES (the pantry itself), STIGMA AND SHAME (terror and crying), and INSTITUTIONAL BARRIERS (critique of why it's necessary).
+
+3. DEMO STRATEGY:
+- Start with a simple passage to establish codebook understanding
+- Move to an overlapping passage to discuss choice and justification
+- Finish with a genuinely ambiguous passage to surface how different frames/theories change coding
+
+---
+

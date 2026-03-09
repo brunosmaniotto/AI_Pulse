@@ -1,0 +1,47 @@
+EXTRACTION SCHEMA: Campus Food Access Survey
+==============================================
+
+For each survey response, extract and classify according to the following schema:
+
+1. BARRIER TYPE (Primary classification, required)
+   - Cost: Financial constraints, unaffordable meal plans, pricing concerns
+   - Time: Schedule conflicts, time management, preparation time limitations
+   - Dietary: Dietary restrictions, allergies, cultural/religious food requirements
+   - Location: Distance, commute, physical access, campus location
+   - Stigma: Shame, reluctance to ask for help, feeling unwelcome
+   - Information: Lack of knowledge about resources, poor advertising
+   - Schedule: Work conflicts, class schedule incompatibility with meal times
+   - Other: Barriers not fitting above categories
+
+2. LEVEL (Multilevel analysis framework, required)
+   - Intrapersonal: Individual knowledge, skills, beliefs, emotional barriers (e.g., shame, lack of awareness)
+   - Interpersonal: Social interactions, relationships, discrimination, peer influence
+   - Institutional: University policies, resource availability, accessibility, system design
+
+3. SENTIMENT (Emotional tone of response, required)
+   - Positive: Grateful, satisfied, hopeful
+   - Negative: Frustrated, angry, distressed
+   - Mixed: Acknowledges both positives and negatives
+   - Neutral: Factual, matter-of-fact, no clear emotional valence
+
+4. SPECIFIC RESOURCES MENTIONED (List any, optional)
+   - Campus dining locations (e.g., dining halls, Crossroads, specific residence halls)
+   - Campus services (e.g., food pantry, meal plans)
+   - Off-campus resources mentioned
+   - Leave blank if none mentioned
+
+5. KEY ENTITIES (People, places, programs referenced, optional)
+   - Types: campus locations (building names, residence areas), role positions (peer mentor, dining workers), programs (CAPS, food pantry)
+   - List each distinct entity
+   - Leave blank if none explicitly mentioned
+
+6. URGENCY (Severity/acuteness of need, required)
+   - Low: Student reports manageable situation, adequate access
+   - Medium: Student reports moderate barriers with workarounds or partial solutions
+   - High: Student reports acute food insecurity, significant health/wellbeing impact
+
+OUTPUT FORMAT
+=============
+
+Tab-separated values preferred. Columns in order:
+Response_ID | Barrier_Type | Level | Sentiment | Resources_Mentioned | Key_Entities | Urgency

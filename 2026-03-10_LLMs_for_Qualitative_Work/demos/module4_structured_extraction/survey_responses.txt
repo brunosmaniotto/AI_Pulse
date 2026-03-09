@@ -1,0 +1,32 @@
+Campus Food Access: Student Survey Responses
+===============================================
+
+R1: I honestly can't afford to eat out much, and the dining plans are way too expensive for what you get. Ramen and peanut butter sandwiches are my diet.
+
+R2: By the time I finish my shift at the library and get to the dining hall, it's closed. I end up eating whatever's at the convenience store, which is just junk.
+
+R3: The food options don't accommodate my kosher needs, so I end up having to cook a lot at home, which takes time I don't have with classes and research.
+
+R4: I guess technically I have "access" to food if you count the vending machine in Dwinelle at 11pm, which is great when you're desperate and broke and all they have are expired chips.
+
+R5: I didn't realize the university has a food pantry until junior year! If someone had told me about it earlier, it would have made such a difference. The stigma of asking for help was real, but I'm grateful it exists.
+
+R6: I live off-campus and commute from Oakland, so by the time I get to campus, eat somewhere, and get back, it's half my day. Sometimes I just skip meals to save money and time.
+
+R7: Honestly I'm fine. My family sends me care packages and I have a meal plan. I know I'm lucky though because I hear a lot of my friends struggling.
+
+R8: The halal options are limited and some dining workers seem annoyed when I ask them to prepare food in a certain way. It makes me feel unwelcome, so I often just go hungry rather than deal with it.
+
+R9: My diabetes means I need to eat regularly and carefully, but the dining halls don't provide ingredient lists or nutritional info. It's stressful trying to figure out what I can safely eat.
+
+R10: I work three part-time jobs to pay tuition, so I'm constantly exhausted and hungry. The meal plan is expensive and I can't always make it to meals when they're served.
+
+R11: I didn't know there were different resources available until a peer mentor mentioned it casually. Better advertising would help, but also reducing the cost would really address the root problem.
+
+R12: The dining hall food is actually pretty decent, but it's expensive relative to quality. My biggest barrier is just affording enough food overall, not necessarily access to the dining hall itself.
+
+R13: I'm a grad student and don't have access to the undergrad meal plans. The on-campus food is expensive and there's no subsidized option for graduate students like there is for undergraduates.
+
+R14: Coming from a food-insecure background, I found it really hard to ask for help even when resources existed. I needed to know it was okay to access the food pantry, not just that it was available.
+
+R15: The late-night food options on campus are pretty good actually—Crossroads stays open late and the prices are reasonable. My only complaint is that they could have more variety.

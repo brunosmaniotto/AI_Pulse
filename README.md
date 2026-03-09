@@ -10,7 +10,11 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ## Next Workshop (March 10, 2026): LLMs for Qualitative Work
 
-Coming soon — details to follow.
+**Tools**: Gemini, NotebookLM | [Materials](2026-03-10_LLMs_for_Qualitative_Work/)
+
+AI tools have transformed quantitative research workflows — but qualitative researchers have been largely left out of the conversation. This session explores how LLMs fit into qualitative work through five live demos: grounded document analysis with **NotebookLM**, dialogical qualitative coding, multimodal analysis of photos and video, structured text extraction from open-ended responses, and piloting research designs with simulated participants. All demos use **Gemini** (free for Berkeley accounts).
+
+We also discussed the unique risks LLMs pose for interpretive work and where human judgment remains essential in the analysis loop.
 
 ---
 
@@ -42,7 +46,7 @@ The session showed how these tools can save researchers hours on routine program
 
 ---
 
-**Future Sessions**: LLMs for Qualitative Work, AI for Data Analysis, Productivity & Workflow, Running Your Own AI, Customizing Your AI (Tentative)
+**Future Sessions**: AI for Data Analysis, Productivity & Workflow, Running Your Own AI, Customizing Your AI (Tentative)
 
 ---
 

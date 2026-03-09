@@ -1,0 +1,103 @@
+CODEBOOK: Campus Food Access Barriers
+=====================================
+
+THEME 1: COST BARRIERS
+-----------------------
+Definition: Financial constraints preventing adequate food access; includes unaffordable meal plans, expensive dining options, limited discretionary spending on food, inability to purchase food at market prices.
+
+Indicators:
+- Explicit mention of "can't afford," "expensive," "too costly," "financial"
+- References to limited budget allocation to food
+- Statements about choosing food-related sacrifices to save money
+- Discussion of food from low-cost sources (ramen, vending machines, convenience stores)
+
+Example: "I honestly can't afford to eat out much, and the dining plans are way too expensive for what you get." (R1)
+
+---
+
+THEME 2: TIME AND SCHEDULE BARRIERS
+------------------------------------
+Definition: Temporal constraints preventing food access; includes work-school scheduling conflicts, timing mismatches with meal service, time demands leaving insufficient time for food preparation or procurement.
+
+Indicators:
+- Explicit mention of "schedule," "time," "busy," "hours"
+- References to meal times conflicting with work/class/research commitments
+- Statements about insufficient time for food preparation
+- Work shift conflicts with dining hall hours
+
+Example: "By the time I finish my shift at the library and get to the dining hall, it's closed." (R2)
+
+---
+
+THEME 3: DIETARY AND CULTURAL BARRIERS
+---------------------------------------
+Definition: Dietary restrictions, medical needs, or cultural/religious food requirements unmet by available options; includes allergies, religious dietary laws, medical conditions, cultural food expectations.
+
+Indicators:
+- Explicit mention of "kosher," "halal," "diabetes," "allergies," "vegetarian," "cultural"
+- References to specific dietary needs or restrictions
+- Statements about limited food options matching identity or medical requirements
+- Need for specific preparation methods
+
+Example: "The food options don't accommodate my kosher needs, so I end up having to cook a lot at home." (R3)
+
+---
+
+THEME 4: LOCATION AND ACCESS BARRIERS
+--------------------------------------
+Definition: Physical distance, location constraints, or accessibility issues preventing timely food access; includes commute distance, off-campus living, geographic isolation from resources, transportation challenges.
+
+Indicators:
+- Explicit mention of "distance," "location," "commute," "far," "off-campus"
+- References to time spent traveling to access food
+- Statements about geographic inconvenience or isolation
+- Living situation affecting access logistics
+
+Example: "I live off-campus and commute from Oakland, so by the time I get to campus, eat somewhere, and get back, it's half my day." (R6)
+
+---
+
+THEME 5: STIGMA AND AWARENESS BARRIERS
+---------------------------------------
+Definition: Social or psychological barriers including shame, reluctance to seek help, feeling unwelcome, or lack of information about available resources; includes awareness gaps about what exists.
+
+Indicators:
+- Explicit mention of "stigma," "unwelcome," "didn't know," "ashamed," "didn't realize"
+- References to emotional discomfort accessing resources
+- Statements about discrimination or poor treatment by staff
+- Information discovery narratives ("I didn't know until...")
+- Psychological barriers to requesting help
+
+Example: "I didn't realize the university has a food pantry until junior year! If someone had told me about it earlier, it would have made such a difference. The stigma of asking for help was real." (R5)
+
+---
+
+THEME 6: INSTITUTIONAL SUPPORT GAPS
+------------------------------------
+Definition: System-level failures including inadequate resources, poor service design, inequitable policies, insufficient graduate student support, limited communication about available services.
+
+Indicators:
+- References to insufficient resources or options
+- Statements about institutional policy inequities
+- Comments on system design failures
+- Criticism of communication or advertising
+- Comparison to programs/benefits for other groups
+- Worker behavior or institutional culture issues
+
+Example: "I'm a grad student and don't have access to the undergrad meal plans. The on-campus food is expensive and there's no subsidized option for graduate students." (R13)
+
+---
+
+CODING RULES
+============
+
+1. Each response receives ONE primary theme code but may contain elements of multiple themes. Code the dominant barrier.
+
+2. If multiple barriers are equally emphasized, use this hierarchy (primary to secondary):
+   - Stigma/Awareness → Cost → Time → Location → Dietary → Institutional
+
+3. If a response primarily describes system critique without describing personal experience, code as Institutional Support Gaps.
+
+4. Sarcasm and irony should be interpreted for actual barrier type (R4 is a Cost barrier despite the sarcastic tone).
+
+5. Positive responses or minimal barriers may still receive codes based on context clues (e.g., "I'm fine" but acknowledging luck indicates awareness of cost barriers for peers).

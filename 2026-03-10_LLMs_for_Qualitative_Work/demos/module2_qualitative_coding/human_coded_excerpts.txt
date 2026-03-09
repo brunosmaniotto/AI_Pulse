@@ -1,0 +1,119 @@
+HUMAN-CODED EXCERPTS: GROUND TRUTH EXAMPLES
+Module 2 Demo – LLMs for Qualitative Work
+
+Three passages with detailed coding rationale for workshop discussion.
+
+---
+
+EXCERPT 1: COMPLEX OVERLAP – The Restaurant Encounter
+[SOURCE: Interview transcript, "Have you ever had situations at restaurants..."]
+
+TEXT:
+"Okay, so one time—I must have been a freshman—my friends wanted to go to this restaurant, and I went because I didn't want to be like weird about it, and I just ordered like a side salad or something small. And one of my friends was like, 'Why are you not getting an entree?' And I froze. I literally didn't know what to say. I couldn't just be like 'because I can't afford it,' so I was like 'oh, I'm not that hungry,' which made it even more awkward. And then everyone was like 'get whatever you want, we'll cover you,' which was kind of sweet, but also... I didn't want to be the person who needs to be covered. So I felt like I had to refuse, and then I felt bad, and the whole thing was just... uncomfortable. I haven't gone to sit-down restaurants with them very much since then."
+
+PRIMARY CODES:
+1. STIGMA AND SHAME (primary, ~50% of passage)
+2. COPING STRATEGIES (secondary, ~30%)
+3. SOCIAL SUPPORT (tertiary, ~20%)
+
+JUSTIFICATION:
+The emotional core of this excerpt is the shame and anxiety around financial hardship being exposed. Maya "froze," couldn't admit the truth, felt uncomfortable and bad. The shame is the driver of her behavior throughout the passage. However, the excerpt also contains a coping strategy (lying, pretending not to be hungry) and an element of social support offered (friends wanting to help) that she declined due to shame.
+
+This passage is a teaching example of OVERLAP: multiple codes genuinely apply, but the primary focus is the emotional/psychological dimension (shame) that shapes how she engages with the other elements.
+
+CODING CHOICE RATIONALE:
+- Could be coded primarily as COPING STRATEGIES if we emphasize her deception and avoidance as learned responses
+- Could be coded primarily as SOCIAL SUPPORT if we emphasize the offer of help and her conflict about accepting it
+- However, the shame is the explicit emotional through-line and the consequence ("I haven't gone to sit-down restaurants with them very much since then") is a behavioral isolation resulting from shame, not a successful coping strategy
+- Therefore: STIGMA AND SHAME is primary
+
+---
+
+EXCERPT 2: AMBIGUOUS FRAMING – The Food Pantry Discovery
+[SOURCE: Interview transcript, "have you found any resources..."]
+
+TEXT:
+"Yes! Actually, um, this is the thing that kind of made a big difference. So I think it was like late sophomore year when I found out there was a food pantry on campus. And I remember being terrified to go. Like, I built it up in my head as this scary thing where I'd run into someone I knew, or people would judge me, or like, it would feel bad. But I was also like, really hungry and out of money, so I went. And it was... it was actually really good. The people who work there—I think they're mostly student workers and volunteers—they were so nice and not judgmental at all. They just like, helped me pick out stuff, and I got like, a whole bag of groceries. And I cried a little bit, which was embarrassing, but also like, it was such a relief. And I've been back, like, once a month or so since then? And it's gotten easier each time. Like, the shame is less."
+
+PRIMARY CODES:
+1. FOOD ACCESS RESOURCES (primary, ~35%)
+2. STIGMA AND SHAME (primary, ~35%)
+3. SOCIAL SUPPORT (secondary, ~20%)
+4. INSTITUTIONAL BARRIERS (tertiary, ~10%)
+
+JUSTIFICATION:
+This excerpt genuinely contains four active codes and is an example of how a single moment in qualitative data can be interpreted through multiple lenses:
+
+FOOD ACCESS RESOURCES: Maya discovers and describes the food pantry—an actual resource. She provides details about what it is, how to access it, and that it provides her with groceries.
+
+STIGMA AND SHAME: The emotional arc of the passage is centered on overcoming fear and shame. She is "terrified," fears judgment, finds the experience "embarrassing," but gradually experiences the shame decreasing. The relief is relief from shame and fear.
+
+SOCIAL SUPPORT: The student workers and volunteers are nice and non-judgmental—this is direct social support in the form of kindness and practical help.
+
+INSTITUTIONAL BARRIERS: Implicit in the passage (why should a food pantry be necessary? This speaks to institutional failure).
+
+DIFFERENT THEORETICAL FRAMES WOULD CODE DIFFERENTLY:
+- From a RESOURCE ACCESS perspective: Primary code = FOOD ACCESS RESOURCES
+- From a MENTAL HEALTH perspective: Primary code = STIGMA AND SHAME
+- From a COMMUNITY/SUPPORT perspective: Primary code = SOCIAL SUPPORT
+- From a CRITICAL perspective: Primary code = INSTITUTIONAL BARRIERS (with shame and resources as evidence of systemic failure)
+
+This is a teaching moment for how coding reflects the researcher's theoretical lens and research question.
+
+RECOMMENDED CODING FOR THIS DEMO:
+Code it as STIGMA AND SHAME (primary) + FOOD ACCESS RESOURCES (secondary), because the interview prompt was about overcoming barriers to using resources, and the emotional/psychological barrier (shame) is what this passage primarily illuminates.
+
+---
+
+EXCERPT 3: DEBATABLE INTERPRETATION – The Work-Study Trade-Off
+[SOURCE: Interview transcript, "How does the work situation play into this?"]
+
+TEXT:
+"It's tricky. Like, I need the money, obviously, because of the food and the textbooks and all of that. But 15 hours a week is a lot when you're taking four upper-level classes. I definitely have had semesters where I wanted to take on more hours for more money, but my GPA started slipping, and I was like, 'okay, that's not worth it. I need to graduate.' So it's like this constant negotiation, right? Do I work more and risk my grades, or do I work less and like, go hungry some weeks? I've had weeks where I definitely went hungry. Not starving, but like, I'd eat less intentionally so my groceries could stretch longer. It's weird to like, admit that."
+
+PRIMARY CODES:
+1. FINANCIAL STRAIN (primary, ~40%)
+2. ACADEMIC IMPACT (primary, ~40%)
+3. COPING STRATEGIES (secondary, ~20%)
+
+JUSTIFICATION:
+This passage is genuinely ambiguous and could be coded multiple ways depending on what question the researcher is asking:
+
+OPTION A: Code primarily as FINANCIAL STRAIN
+- Rationale: The fundamental problem is insufficient money. All the trade-offs stem from not having enough to cover food, textbooks, and tuition. The constraints Maya faces are economic constraints.
+- This coding emphasizes: "I need the money," "risk my grades," "go hungry"
+
+OPTION B: Code primarily as ACADEMIC IMPACT
+- Rationale: The passage explicitly describes the impact on academic success (GPA slipping, difficult to maintain good grades). The interview response directly addresses how food insecurity affects education.
+- This coding emphasizes: "15 hours a week is a lot," "GPA started slipping," "Do I work more and risk my grades?"
+
+OPTION C: Code primarily as COPING STRATEGIES
+- Rationale: The passage describes a specific strategy Maya has developed (limiting hours, eating less strategically) to manage competing demands.
+- This coding emphasizes: "constant negotiation," "I'd eat less intentionally so my groceries could stretch longer"
+
+RECOMMENDED CODING FOR DEMO:
+Code this as FINANCIAL STRAIN (primary) + ACADEMIC IMPACT (secondary) with a discussion note that COPING STRATEGIES is also present but not primary because the emphasis is on the impossible choice rather than on the strategy itself.
+
+DEMO DISCUSSION POINT:
+Ask the workshop participants: "How would you code this, and why? What research question are you answering?" This reveals that coding is not neutral—it reflects your analytic priorities.
+
+---
+
+TEACHING NOTES:
+
+1. EXCERPT 1 demonstrates how multiple codes can occur in one passage, but one is still primary based on emotional/narrative emphasis.
+
+2. EXCERPT 2 demonstrates how the SAME passage can be validly coded differently depending on theoretical framework. This is not an error; it's evidence that the researcher's lens matters.
+
+3. EXCERPT 3 demonstrates genuine interpretive ambiguity even among reasonable coders, and how the research question determines coding priority.
+
+4. These three examples prepare workshop participants for the interactive demo with Gemini, where they'll see how the AI:
+   - Sometimes agrees with human coding
+   - Sometimes identifies codes humans missed
+   - Sometimes justifies different coding based on different framings
+   - Sometimes highlights genuine ambiguity
+
+5. Ground truth is not provided here to allow participants to practice their own coding before seeing Gemini's results.
+
+---
+

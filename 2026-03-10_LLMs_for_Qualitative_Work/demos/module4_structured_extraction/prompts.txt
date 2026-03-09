@@ -1,0 +1,142 @@
+STRUCTURED EXTRACTION PROMPTS: Campus Food Access
+==================================================
+
+VERSION A: GEMINI CHAT PROMPT (Non-coder friendly)
+===================================================
+
+For each of the following survey responses, extract and return as a table with columns:
+(1) Response ID, (2) Barrier Type, (3) Level, (4) Sentiment, (5) Resources Mentioned,
+(6) Key Entities, (7) Urgency.
+
+Use this codebook for classification:
+
+CODEBOOK:
+- Cost Barriers: Financial constraints, unaffordable meal plans, pricing
+- Time and Schedule Barriers: Schedule conflicts, timing mismatches with meal service
+- Dietary and Cultural Barriers: Dietary restrictions, religious/cultural food requirements
+- Location and Access Barriers: Physical distance, commute issues, off-campus living
+- Stigma and Awareness Barriers: Shame, reluctance to ask for help, lack of knowledge about resources
+- Institutional Support Gaps: System-level failures, policy inequities, poor communication
+
+EXTRACTION SCHEMA:
+- Barrier Type: Use codebook above or mark "Other"
+- Level: Intrapersonal (individual knowledge, beliefs, emotional barriers), Interpersonal (social interactions, discrimination), or Institutional (university policies, resource availability)
+- Sentiment: Positive, Negative, Mixed, or Neutral
+- Resources Mentioned: Any named campus services or locations (e.g., food pantry, dining halls, Crossroads)
+- Key Entities: People, places, or programs explicitly named or referenced
+- Urgency: Low (manageable), Medium (moderate barriers with workarounds), or High (acute food insecurity, significant impact)
+
+SURVEY RESPONSES:
+
+R1: I honestly can't afford to eat out much, and the dining plans are way too expensive for what you get. Ramen and peanut butter sandwiches are my diet.
+
+R2: By the time I finish my shift at the library and get to the dining hall, it's closed. I end up eating whatever's at the convenience store, which is just junk.
+
+R3: The food options don't accommodate my kosher needs, so I end up having to cook a lot at home, which takes time I don't have with classes and research.
+
+R4: I guess technically I have "access" to food if you count the vending machine in Dwinelle at 11pm, which is great when you're desperate and broke and all they have are expired chips.
+
+R5: I didn't realize the university has a food pantry until junior year! If someone had told me about it earlier, it would have made such a difference. The stigma of asking for help was real, but I'm grateful it exists.
+
+R6: I live off-campus and commute from Oakland, so by the time I get to campus, eat somewhere, and get back, it's half my day. Sometimes I just skip meals to save money and time.
+
+R7: Honestly I'm fine. My family sends me care packages and I have a meal plan. I know I'm lucky though because I hear a lot of my friends struggling.
+
+R8: The halal options are limited and some dining workers seem annoyed when I ask them to prepare food in a certain way. It makes me feel unwelcome, so I often just go hungry rather than deal with it.
+
+R9: My diabetes means I need to eat regularly and carefully, but the dining halls don't provide ingredient lists or nutritional info. It's stressful trying to figure out what I can safely eat.
+
+R10: I work three part-time jobs to pay tuition, so I'm constantly exhausted and hungry. The meal plan is expensive and I can't always make it to meals when they're served.
+
+R11: I didn't know there were different resources available until a peer mentor mentioned it casually. Better advertising would help, but also reducing the cost would really address the root problem.
+
+R12: The dining hall food is actually pretty decent, but it's expensive relative to quality. My biggest barrier is just affording enough food overall, not necessarily access to the dining hall itself.
+
+R13: I'm a grad student and don't have access to the undergrad meal plans. The on-campus food is expensive and there's no subsidized option for graduate students like there is for undergraduates.
+
+R14: Coming from a food-insecure background, I found it really hard to ask for help even when resources existed. I needed to know it was okay to access the food pantry, not just that it was available.
+
+R15: The late-night food options on campus are pretty good actually—Crossroads stays open late and the prices are reasonable. My only complaint is that they could have more variety.
+
+---
+
+
+VERSION B: PYTHON SCRIPT FOR GOOGLE COLAB
+==========================================
+
+# Campus Food Access: Structured Extraction with Google Gemini API
+# Install required packages
+# pip install google-generativeai pandas
+
+import pandas as pd
+from google.generativeai import GenerativeModel
+import json
+
+# Initialize Gemini API
+# NOTE: Set your API key via: import os; os.environ["GEMINI_API_KEY"] = "your-key-here"
+model = GenerativeModel("gemini-2.0-flash")
+
+# Define survey responses
+survey_responses = {
+    "R1": "I honestly can't afford to eat out much, and the dining plans are way too expensive for what you get. Ramen and peanut butter sandwiches are my diet.",
+    "R2": "By the time I finish my shift at the library and get to the dining hall, it's closed. I end up eating whatever's at the convenience store, which is just junk.",
+    "R3": "The food options don't accommodate my kosher needs, so I end up having to cook a lot at home, which takes time I don't have with classes and research.",
+    "R4": "I guess technically I have \"access\" to food if you count the vending machine in Dwinelle at 11pm, which is great when you're desperate and broke and all they have are expired chips.",
+    "R5": "I didn't realize the university has a food pantry until junior year! If someone had told me about it earlier, it would have made such a difference. The stigma of asking for help was real, but I'm grateful it exists.",
+    "R6": "I live off-campus and commute from Oakland, so by the time I get to campus, eat somewhere, and get back, it's half my day. Sometimes I just skip meals to save money and time.",
+    "R7": "Honestly I'm fine. My family sends me care packages and I have a meal plan. I know I'm lucky though because I hear a lot of my friends struggling.",
+    "R8": "The halal options are limited and some dining workers seem annoyed when I ask them to prepare food in a certain way. It makes me feel unwelcome, so I often just go hungry rather than deal with it.",
+    "R9": "My diabetes means I need to eat regularly and carefully, but the dining halls don't provide ingredient lists or nutritional info. It's stressful trying to figure out what I can safely eat.",
+    "R10": "I work three part-time jobs to pay tuition, so I'm constantly exhausted and hungry. The meal plan is expensive and I can't always make it to meals when they're served.",
+    "R11": "I didn't know there were different resources available until a peer mentor mentioned it casually. Better advertising would help, but also reducing the cost would really address the root problem.",
+    "R12": "The dining hall food is actually pretty decent, but it's expensive relative to quality. My biggest barrier is just affording enough food overall, not necessarily access to the dining hall itself.",
+    "R13": "I'm a grad student and don't have access to the undergrad meal plans. The on-campus food is expensive and there's no subsidized option for graduate students like there is for undergraduates.",
+    "R14": "Coming from a food-insecure background, I found it really hard to ask for help even when resources existed. I needed to know it was okay to access the food pantry, not just that it was available.",
+    "R15": "The late-night food options on campus are pretty good actually—Crossroads stays open late and the prices are reasonable. My only complaint is that they could have more variety.",
+}
+
+# Define the extraction schema as a system prompt
+system_prompt = """You are a qualitative research assistant specialized in structured data extraction.
+Extract information from survey responses using this schema:
+- Barrier Type: Cost, Time, Dietary, Location, Stigma, Information, Schedule, or Other
+- Level: Intrapersonal, Interpersonal, or Institutional
+- Sentiment: Positive, Negative, Mixed, or Neutral
+- Resources Mentioned: Any campus services or locations named
+- Key Entities: People, places, or programs referenced
+- Urgency: Low, Medium, or High
+
+Return ONLY valid JSON with no additional text."""
+
+# Extract data from each response
+results = []
+
+for response_id, text in survey_responses.items():
+    # Create extraction prompt
+    extraction_prompt = f"""Extract structured data from this survey response:
+
+Response ID: {response_id}
+Text: {text}
+
+Return as JSON with keys: barrier_type, level, sentiment, resources_mentioned, key_entities, urgency"""
+
+    # Call Gemini API
+    response = model.generate_content([system_prompt, extraction_prompt])
+
+    # Parse JSON response (with error handling for malformed responses)
+    try:
+        extracted = json.loads(response.text)
+        extracted["response_id"] = response_id
+        results.append(extracted)
+    except json.JSONDecodeError:
+        print(f"Warning: Could not parse response for {response_id}")
+        continue
+
+# Convert results to DataFrame and export
+df = pd.DataFrame(results)
+df = df[["response_id", "barrier_type", "level", "sentiment", "resources_mentioned", "key_entities", "urgency"]]
+
+# Save to CSV
+df.to_csv("campus_food_access_extracted.csv", index=False)
+print("Extraction complete. Results saved to campus_food_access_extracted.csv")
+print("\nSample of extracted data:")
+print(df.head())

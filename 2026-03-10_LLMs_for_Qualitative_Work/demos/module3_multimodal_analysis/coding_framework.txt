@@ -1,0 +1,374 @@
+================================================================================
+VISUAL CODING FRAMEWORK: VAPING CONTENT ANALYSIS
+Adapted from Xu et al. (2024) JMIR Study
+================================================================================
+
+This coding scheme is used to systematically analyze visual elements in vaping
+content. Use this framework alongside the Gemini prompts to code images and
+video. Compare your codes (and Gemini's inferred codes) against these categories.
+
+================================================================================
+CODE 1: SETTING TYPE
+================================================================================
+
+Definition: The physical location and social environment depicted in the image.
+
+Categories:
+
+[S1] PRIVATE INDOOR SETTINGS
+  - Bedroom, apartment, dorm room
+  - Home or personal space
+  - Implication: Intimate, personal, private activity
+  - Normalization cue: Vaping presented as comfortable home activity
+
+[S2] PUBLIC INDOOR SETTINGS
+  - Coffee shops, bars, clubs, restaurants, offices, schools
+  - Shared enclosed space with others (or designed for others to enter)
+  - Implication: Activity acceptable in social/professional spaces
+  - Normalization cue: Integration into everyday social institutions
+
+[S3] OUTDOOR/NATURAL SETTINGS
+  - Parks, streets, beaches, nature, open air
+  - Outdoor social gathering spaces
+  - Implication: Vaping as outdoor recreational activity
+  - Normalization cue: Associated with leisure, freedom, social activities
+
+[S4] SEMI-PUBLIC PERFORMANCES
+  - Stages, studios, controlled filming location
+  - Deliberately constructed environment for an audience
+  - Implication: Vaping as performance or display
+  - Normalization cue: Vaping as skill-based or entertainment activity
+
+[S5] TRANSPORTATION/MOBILE
+  - Cars, public transit, bikes, skateboards
+  - "On-the-go" contexts
+  - Implication: Vaping as portable, always-accessible activity
+  - Normalization cue: Integrated with mobility and convenience
+
+[S6] SYMBOLIC/ABSTRACT BACKGROUND
+  - Nondescript walls, blurred background, digital effects
+  - Focus is on person/device, not setting
+  - Implication: Vaping isolated from everyday context
+  - Normalization cue: Product-focused, lifestyle abstracted
+
+CODING NOTE: For Gemini analysis, ask: "What setting is shown? What does that
+suggest about when vaping is 'normal' or acceptable?"
+
+================================================================================
+CODE 2: VISUAL AESTHETICS & STYLE
+================================================================================
+
+Definition: How the image is visually styled, filtered, and composed to create
+a particular aesthetic appeal.
+
+Categories:
+
+[V1] FILTER/EFFECT INTENSITY
+  LOW: Minimal or no filters; appears documentary or raw
+    → Implication: Authenticity, unmediated reality
+    → Normalization: "This is how vaping really looks/is"
+
+  MODERATE: Subtle filters (slight saturation boost, warmth)
+    → Implication: Curated but naturalistic
+    → Normalization: "Vaping is appealing in normal conditions"
+
+  HIGH: Heavy filters, color grading, artistic effects, slow-motion
+    → Implication: Aestheticized, aspirational, stylized
+    → Normalization: "Vaping is beautiful, cool, artistic"
+
+[V2] COLOR PALETTE
+  - Warm (reds, oranges, yellows, golden hour): Cozy, intimate, energetic
+  - Cool (blues, purples, teals, neon): Edgy, modern, futuristic
+  - Saturated (vivid, intense colors): Eye-catching, exciting
+  - Desaturated (muted, grayscale): Artistic, melancholic, nostalgic
+  - Bright/High-contrast: Dynamic, striking
+  - Dark/Low-contrast: Moody, mysterious, exclusive
+
+[V3] LIGHTING
+  - Natural/Golden hour: Aspirational, lifestyle-positive
+  - Studio/Professional: High-quality, polished, premium
+  - Backlighting/Silhouettes: Dramatic, mysterious, cool-factor
+  - Harsh/Shadows: Edgy, darker tone
+  - Ambient/Social setting: Casual, integration into normal spaces
+
+[V4] COMPOSITION & FRAMING
+  - Close-up on device: Product-focused, technical interest
+  - Close-up on face/cloud: Aesthetic/performative interest
+  - Wide shot: Social/environmental context important
+  - Rule of thirds: Professional, intentional composition
+  - Symmetrical: Planned, controlled aesthetic
+  - Asymmetrical/Dynamic: Movement, energy, spontaneity
+
+[V5] TEXT & GRAPHIC OVERLAYS
+  - Hashtags (#vape, #vapers, #vapelife): Community markers
+  - Product names/branding: Emphasis on product identity
+  - Lifestyle language ("live free", "cloud life"): Aspirational framing
+  - Skill-based language ("tricks", "competition"): Performance framing
+  - Humorous/Meme elements: Social bonding, levity
+  - Health warnings/disclaimers: Educational/cautionary framing (rare)
+
+CODING NOTE: For Gemini analysis, ask: "Describe the visual style. What mood
+or feeling does this create? How does the aesthetics shape perception of vaping?"
+
+================================================================================
+CODE 3: PRODUCT VISIBILITY & FRAMING
+================================================================================
+
+Definition: How prominently vaping devices and products are shown and framed.
+
+Categories:
+
+[P1] PRODUCT PROMINENCE
+  PRIMARY: Device is central focus of image
+    - Clear, sharp, well-lit device
+    - Size and position draw eye first
+    - Implication: Product is important, worth attention
+    → Normalization: "The device is worth admiring"
+
+  SECONDARY: Device visible but not primary focus
+    - Clear but smaller, or slightly out of focus
+    - Part of a larger scene
+    - Implication: Normal prop in everyday scene
+    → Normalization: "Vaping device is just another object"
+
+  TERTIARY: Device barely visible or obscured
+    - Small, blurred, partially hidden
+    - Background element
+    - Implication: Activity matters more than device
+    → Normalization: "Focus is on the person/activity, not the tool"
+
+[P2] DEVICE TYPE (if identifiable)
+  - Pen-style vape: Sleek, portable, youth-oriented
+  - Box mod: Technical, customizable, enthusiast-focused
+  - Pod system: Modern, convenient, mainstream
+  - Disposable: Casual, low-commitment
+  - Unclear/Generic: Could be any type
+
+[P3] BRAND VISIBILITY
+  BRANDED: Brand name, logo, or distinctive product design visible
+    → Normalization: Brand recognition, product-specific appeal
+
+  GENERIC: Device visible but no identifiable brand
+    → Normalization: Focus is on activity/culture, not brand
+
+  OBSCURED: Device intentionally hidden or blurred
+    → Normalization: Avoiding brand identification (sometimes for regulatory reasons)
+
+[P4] CLOUD/VAPOR PROMINENCE
+  LARGE/VISIBLE: Prominent vapor clouds, often in bright/artistic ways
+    → Normalization: Aesthetic and visual spectacle of vaping
+
+  MODERATE: Clouds visible but not emphasized
+    → Normalization: Normal incidental aspect
+
+  MINIMAL/ABSENT: Little to no visible vapor
+    → Normalization: Focus on device/person, not consumption
+
+CODING NOTE: For Gemini analysis, ask: "What vaping device or product is shown?
+How prominent is it? What does the prominence suggest about the product's importance?"
+
+================================================================================
+CODE 4: SOCIAL CONTEXT
+================================================================================
+
+Definition: Who is depicted and what their social relationship to vaping appears to be.
+
+Categories:
+
+[C1] SOCIAL STRUCTURE
+  SOLITARY: One person alone, vaping
+    - Implication: Personal choice, individual activity
+    - Normalization: "Vaping is something you do for yourself"
+
+  DYADIC: Two people, one or both vaping
+    - Implication: Shared activity, bonding
+    - Normalization: "Vaping brings people together"
+
+  GROUP: 3+ people, one or more vaping
+    - Implication: Social/party activity, cultural norm within peer group
+    - Normalization: "Everyone vapes; it's the norm in this group"
+
+[C2] SOCIAL SETTING
+  INTIMATE: Private, romantic, close personal context
+    - Implication: Vaping as part of intimate relationship/moments
+
+  FRIENDSHIP: Peers/friends socializing
+    - Implication: Peer bonding, group belonging
+
+  PARTY/CELEBRATION: Event-based, festive context
+    - Implication: Vaping as celebration activity
+
+  PROFESSIONAL/WORK: Workplace or professional context
+    - Implication: Vaping as normalized in work/professional contexts
+
+  PERFORMANCE/AUDIENCE: Intentional display for others
+    - Implication: Vaping as skill, entertainment, status display
+
+[C3] AGE APPARENT
+  YOUTH (13-19): Teens
+  YOUNG ADULT (20-30): College/early career age
+  ADULT (30+): Adult age group
+  MIXED: Multiple age groups depicted
+  UNCLEAR: Cannot determine
+
+[C4] EMOTIONAL TONE OF SOCIAL INTERACTION
+  JOYFUL: Smiling, laughing, celebratory
+    → Normalization: "Vaping makes people happy"
+
+  CASUAL/RELAXED: Calm, comfortable, unbothered
+    → Normalization: "Vaping is normal and low-key"
+
+  ENERGETIC/EXCITED: Active, dynamic, enthusiastic
+    → Normalization: "Vaping is exciting and fun"
+
+  COOL/ASPIRATIONAL: Stylish, fashionable, status-seeking
+    → Normalization: "Vaping is cool and desirable"
+
+  NEUTRAL: No clear emotional expression
+
+  ISOLATED/ALONE TONE: Even in groups, person seems separate
+    → Normalization: "Vaping is a solitary activity within social settings"
+
+CODING NOTE: For Gemini analysis, ask: "Who is shown? Are they alone or with others?
+What is the social relationship to vaping being portrayed?"
+
+================================================================================
+CODE 5: TEXT & CAPTION FRAMING
+================================================================================
+
+Definition: How written language (captions, hashtags, overlays) frames vaping
+in the image's context.
+
+Categories:
+
+[T1] FRAME TYPE
+  LIFESTYLE: Language emphasizing vaping as identity/lifestyle
+    Examples: #vapelife, #vapeculture, "living my best life"
+    → Normalization: Vaping is core identity
+
+  PRODUCT/REVIEW: Informational language about device, features, quality
+    Examples: "Best vape for clouds", "pod review", comparison language
+    → Normalization: Vaping is technical choice, consumer product
+
+  HUMOR/MEME: Joking, self-aware, comedic language
+    Examples: Puns, irony, memes, jokes about vaping
+    → Normalization: Vaping treated lightly, normalized through humor
+
+  EDUCATIONAL/HARM-REDUCTION: Information about safety, health, risks
+    Examples: "Vaping is less harmful than smoking", health facts
+    → Normalization: Vaping positioned as health-conscious choice
+
+  SOCIAL/COMMUNITY: Language emphasizing belonging, friendship, shared identity
+    Examples: "Shoutout to my vape squad", "vapers unite"
+    → Normalization: Vaping as group identity, social belonging
+
+  SKILL/PERFORMANCE: Language about tricks, competition, mastery
+    Examples: "Attempting a new trick", "competition ready"
+    → Normalization: Vaping as skilled activity worth mastery
+
+  NO TEXT/CAPTION: Image without written language
+    → Implication: Visual content speaks for itself
+
+[T2] TONE OF LANGUAGE
+  - Aspirational/Positive: Uplifting, exciting, desirable
+  - Neutral/Informational: Factual, descriptive
+  - Humorous: Joking, self-deprecating, ironic
+  - Cautionary/Critical: Warning, educational, risk-aware
+  - Mixed: Multiple tones present
+
+[T3] AUDIENCE ADDRESSED
+  - Peers/Youth: Language suggesting young audience
+  - Consumers: Product-purchase-focused language
+  - Enthusiasts: Technical, experienced vaper language
+  - Health-conscious: Emphasis on harm reduction or health
+  - General audience: Neutral, accessible language
+
+CODING NOTE: For Gemini analysis, ask: "What text or captions are visible?
+How do they frame vaping? What audience are they speaking to?"
+
+================================================================================
+CODE 6: NORMALIZATION CUES (SUMMARY)
+================================================================================
+
+Definition: Overall assessment of how the image normalizes vaping as an
+everyday, acceptable, desirable activity.
+
+Categories:
+
+[N1] NORMALIZATION STRENGTH
+
+  STRONG NORMALIZATION:
+    - Vaping integrated seamlessly into everyday, desirable activities
+    - High aesthetic appeal with positive emotional tone
+    - Social/peer bonding emphasis
+    - No health warnings or cautionary framing
+    - Youth audience apparent
+    - Example: Beautiful aesthetic image of friends vaping casually at a party
+
+  MODERATE NORMALIZATION:
+    - Vaping presented as normal but not particularly aspirational
+    - Mix of positive and neutral framing
+    - Some educational or cautionary elements present
+    - Adult audience or mixed
+    - Example: Product review with factual language and technical focus
+
+  WEAK NORMALIZATION:
+    - Vaping presented neutrally or critically
+    - Educational/harm-reduction framing
+    - No particular aesthetic appeal
+    - Warning or cautionary tone
+    - Example: Public health infographic about vaping risks
+
+[N2] PRIMARY NORMALIZATION STRATEGY (what makes vaping seem normal)
+
+  AESTHETIC: Visual beauty and artistic appeal
+  SOCIAL: Peer bonding, group belonging, community
+  LIFESTYLE: Identity and life aspiration
+  SKILL: Performance, mastery, competition
+  CONVENIENCE: Portability, ease of use, integration into daily life
+  PRODUCT: Consumer choice, features, quality
+  HUMOR: Levity, normalization through joke/non-seriousness
+  NONE/WEAK: Little normalization apparent
+
+[N3] KEY ABSENCE (what's NOT shown that would counter normalization)
+
+  - Health warnings or risk information
+  - Age restrictions or "18+" markers
+  - Educational framing
+  - Mention of addiction potential
+  - Discussion of regulation or legality
+  - Alternative perspectives (e.g., non-vaping voices)
+  - Research citations or data
+  - Diverse age groups (all youth may imply targeting)
+
+CODING NOTE: For Gemini analysis, ask: "Overall, does this image normalize
+vaping as acceptable/desirable? What specific visual or textual strategies
+accomplish that normalization?"
+
+================================================================================
+HOW TO USE THIS FRAMEWORK WITH GEMINI
+================================================================================
+
+Step 1: Upload image to Gemini
+Step 2: Ask Prompt 1 (Structured Observation)
+Step 3: Review Gemini's response and manually code using this framework
+Step 4: Compare your codes to Gemini's observations
+         - Where does Gemini naturally identify codes? (Usually visual/concrete)
+         - Where does Gemini miss subtle normalization cues? (Cultural, emotional)
+         - Does Gemini identify the primary normalization strategy?
+
+Step 5: Ask Prompt 2 (Public Health Lens)
+        - Does Gemini better identify absences/risks when explicitly prompted?
+
+Step 6: For multiple images, use Prompt 3 to identify patterns across codes
+        - Do similar codes cluster together?
+        - What's the overall normalization strategy across the image set?
+
+Step 7: DISCUSSION QUESTIONS
+         - How accurate is Gemini's coding compared to your manual coding?
+         - What types of normalization is Gemini good at detecting?
+         - What does Gemini consistently miss?
+         - Why might those gaps matter for public health research?
+         - How would you use Gemini + manual coding together in a real study?
+
+================================================================================

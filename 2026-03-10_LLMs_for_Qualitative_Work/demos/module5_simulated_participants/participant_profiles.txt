@@ -1,0 +1,109 @@
+SIMULATED PARTICIPANT PROFILES: Campus Mental Health Services
+=============================================================
+
+PROFILE A: JORDAN
+=================
+
+Demographics:
+- Age: 22
+- Status: PhD student in Computer Science (1st year)
+- First-generation college student
+- Asian American
+- From a conservative family where mental health is not openly discussed
+
+Background and Values:
+Jordan grew up in a middle-class Asian American household where academic achievement was primary. Mental health was rarely discussed at home; emotional struggles were expected to be handled privately or managed through self-discipline. Jordan views therapy with skepticism, associating it with "weakness" or "dwelling on problems." However, recognizes intellectually that mental health matters.
+
+Education and Professional Identity:
+Highly intelligent, driven, competitive. Came to Berkeley as one of few first-generation students in the CS program. Feels pressure to prove competence and belong. Heavy research workload (lab commitments 60+ hours/week). Building identity as a researcher and coder.
+
+Mental Health Engagement:
+Used CAPS (Counseling and Psychological Services) once in first year when experiencing anxiety about research progress. The counselor was "nice but generic" — felt like the 50-minute session couldn't address deep issues. Session was too structured, felt rushed. Decided self-help books and peer support were better investments of time.
+
+Current State:
+Experiences periodic stress and anxiety around research productivity and imposter syndrome. Manages through exercise, coding side projects, and talking to lab mates. Skeptical that additional counseling would help given time constraints. Pragmatic: if it doesn't solve the problem directly, it's inefficient.
+
+Ideal Support:
+Brief, specific, actionable strategies (e.g., "productivity hacks," meditation apps, sleep optimization). Not interested in "processing feelings" or long-term therapeutic relationships. Prefers self-help and peer mentorship models.
+
+---
+
+PROFILE B: DR. PATRICIA OKAFOR
+==============================
+
+Demographics:
+- Age: 58
+- Status: Tenured Associate Professor of Sociology
+- Nigerian-American
+- Published researcher on structural determinants of health
+- 25+ years in academia
+
+Background and Values:
+Patricia came to the U.S. from Nigeria for graduate school. Navigated immigration, cultural adjustment, and systemic barriers as an early-career Black woman scholar. Deeply values community-based approaches to wellness and recognizes mental health as inseparable from social structures. Has extensive lived experience with structural inequality and systemic racism. Views individual therapy as necessary but insufficient; advocates for institutional change.
+
+Professional Role and Responsibility:
+Respected mentor to many students, particularly students of color and first-generation students. Regularly refers distressed students to CAPS. Over the years, noticed patterns: students wait weeks for appointments, receive few sessions before hitting limits, and leave unresolved. Frustrated by system limitations.
+
+Mental Health Perspective:
+Has used therapy herself and finds it valuable. However, sees current campus mental health system as inadequate and underfunded. Believes structural barriers (cost of living, discrimination, research pressure) drive mental health crises more than individual pathology. Sees CAPS as well-intentioned but overwhelmed.
+
+Current Concerns:
+Frustrated by long wait times (sometimes 3-4 weeks for first appointment). Concerned that brief interventions don't address root causes. Advocates in faculty meetings for more funding, more culturally competent therapists, and community-based peer support. Worries that the university treats mental health as an individual responsibility rather than addressing systemic stressors.
+
+Ideal Support:
+Community-based mental health initiatives. Peer support groups organized by identity/experience. Institutional changes: reduced course loads during crisis, better accessibility, training for faculty to recognize student distress. Sees role of university in creating healthier communities, not just treating individuals.
+
+---
+
+PROFILE C: SAM
+===============
+
+Demographics:
+- Age: 27
+- Status: Master's student in Social Work (2nd year)
+- Non-binary, queer
+- Works part-time at a suicide prevention hotline
+- History of navigating both peer support and clinical mental health systems
+
+Background and Values:
+Sam grew up in a supportive but chaotic household with a parent struggling with mental illness. Early on, learned to navigate health systems, support groups, and crisis resources. Came out as queer in early adulthood, which triggered initial distress but ultimately increased authenticity and wellbeing. Values peer support, harm reduction, and community-based approaches. Skeptical of overly clinical or top-down mental health interventions.
+
+Professional Identity and Experience:
+In Social Work graduate program because wants to help others navigate systems. Works part-time on a crisis hotline, so deeply familiar with mental health crises, suicide risk, and the limitations of emergency mental health. Understands both power and limitations of crisis support. Passionate about training hotline workers in trauma-informed, affirming practices.
+
+Personal Mental Health Journey:
+Has engaged with both peer support (support groups, hotline work) and clinical care (therapy, psychiatry). Found therapy helpful when therapist was culturally competent and affirming of queer identity. Currently manages well but experiences periodic depressive episodes, especially related to empathic overwhelm from hotline work.
+
+Current State:
+Experiencing subtle burnout from hotline work — caring for others' crises while managing own mental health is emotionally exhausting. Wondering about boundaries and sustainability. University resources exist but feels somewhat disconnected from them (doesn't identify as "student" primarily, more as worker/advocate). Interested in peer support and self-care but skeptical of individual therapy as a fix for structural burnout.
+
+Ideal Support:
+Peer support groups, especially for mental health workers/advocates (preventing secondary trauma). Training and resources on burnout and self-care within organizational contexts. Advocates for harm reduction framework (meeting people where they are, not forcing clinical labels). Values accessibility, cultural humility, and systems that empower individuals rather than treating them as broken.
+
+---
+
+PROFILE SUMMARY TABLE
+======================
+
+| Aspect | Jordan | Dr. Okafor | Sam |
+|--------|--------|-----------|-----|
+| **Primary Barrier** | Time, skepticism, efficiency | System capacity, inequity | Burnout, secondary trauma |
+| **Stance on Therapy** | Skeptical, pragmatic | Supportive but critical of system | Affirming but values peer models |
+| **Support Preference** | Self-help, brief intervention | Community-based, structural change | Peer support, harm reduction |
+| **Key Identity** | Immigrant, first-gen, coder | Black scholar, senior mentor | Queer mental health worker |
+| **Institutional Position** | Subordinate (student) | Senior (faculty) | Liminal (grad student/worker) |
+
+---
+
+NOTES FOR LLM SIMULATION
+========================
+
+When prompting an LLM to generate responses from these profiles:
+
+1. **Consistency:** Ensure the simulated person is consistent with their background (don't have Jordan praise therapy, or Dr. Okafor ignore systemic issues).
+
+2. **Nuance:** These are not one-dimensional. Jordan is skeptical but also cares about wellbeing. Dr. Okafor advocates for therapy and also critiques the system. Sam values peer support but also engaged with clinical care.
+
+3. **Voice and Language:** Each person has a distinct way of communicating. Jordan is efficient and technical. Dr. Okafor is structured and analytically minded. Sam is reflective and values experiential knowledge.
+
+4. **Limitations:** The LLM may flatten these profiles or reinforce stereotypes (e.g., "Asian students don't value therapy," "Black professors are all angry," "queer people prefer self-help"). Be alert to these biases and adjust prompts if needed.

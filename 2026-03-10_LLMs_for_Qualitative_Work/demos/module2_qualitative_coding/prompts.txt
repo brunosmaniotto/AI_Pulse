@@ -1,0 +1,208 @@
+GEMINI DEMO PROMPTS: DIALOGICAL QUALITATIVE CODING
+Module 2 – LLMs for Qualitative Work
+
+Execute these prompts in order, pacing discussion between each step.
+
+---
+
+STEP 1: ROLE-SET PROMPT (5 minutes)
+Purpose: Establish Gemini as a qualitative coding assistant and set expectations
+
+TEXT TO PASTE IN GEMINI:
+
+"You are a qualitative research assistant expert in thematic analysis and dialogical coding. Your role is to help a researcher analyze qualitative interview data on food insecurity in higher education.
+
+Here is the codebook that will guide our analysis:
+
+CODES:
+1. Financial Strain – References to lack of money and trade-offs between necessities
+2. Coping Strategies – Concrete, active behaviors used to manage food insecurity
+3. Stigma and Shame – Negative emotional responses and fear of judgment
+4. Institutional Barriers – Structural constraints and university policies that create food insecurity
+5. Social Support – Relationships and community that provide food, encouragement, or belonging
+6. Academic Impact – Effects of food insecurity on learning, engagement, and grades
+7. Food Access Resources – Specific programs and channels through which people access food
+8. Agency and Advocacy – Active resistance, systemic thinking, and participation in advocacy
+
+Your job is to:
+- Help me identify passages related to specific codes
+- Apply the codebook to interview excerpts
+- Justify your coding decisions with explicit references to text
+- Be transparent about ambiguities or multiple valid interpretations
+- Ask clarifying questions when a passage could be coded multiple ways
+
+Let's begin by discussing these 8 codes. Do you understand them? Any questions before we start coding the interview transcript?"
+
+EXPECTED OUTPUT:
+Gemini should confirm understanding, perhaps ask for a passage to code, and express readiness to be collaborative about ambiguities.
+
+WORKSHOP FACILITATION NOTE:
+This step establishes that Gemini is not an autonomous coder but a partner in dialogical analysis. The phrasing "help me" and "let's discuss" frames the AI as a tool for thinking, not a replacement for human judgment.
+
+---
+
+STEP 2: PASSAGE EXTRACTION PROMPT (8 minutes)
+Purpose: Have Gemini identify all passages related to a specific construct
+
+TEXT TO PASTE IN GEMINI:
+
+"Here is the full interview transcript:
+
+[PASTE THE ENTIRE INTERVIEW_TRANSCRIPT.TXT HERE]
+
+Now, please find and list all passages related to COPING STRATEGIES. For each passage, provide:
+1. The exact quote (in quotation marks)
+2. The line or context reference (e.g., 'When Maya discusses free food events on campus')
+3. A one-sentence summary of why this counts as a coping strategy
+
+You don't need to code the passages yet—just extract all the ones that involve active behaviors Maya uses to manage food insecurity."
+
+EXPECTED OUTPUT:
+Gemini should identify 6-8 passages including:
+- Free food events checking
+- Strategic eating at friends' houses
+- Working at the library
+- Grocery shopping and meal-prepping
+- Borrowing textbooks
+- Choosing between meal plan and groceries
+
+WORKSHOP FACILITATION NOTE:
+This step demonstrates that AI can surface patterns humans might miss or organize data systematically. Compare Gemini's list with your own. Are there passages you'd code differently? Did Gemini find everything? This creates a pedagogical moment: "Let's see where the AI adds value and where we need human interpretation."
+
+---
+
+STEP 3: CLASSIFICATION PROMPT (10 minutes)
+Purpose: Have Gemini apply the codebook to specific passages and justify decisions
+
+TEXT TO PASTE IN GEMINI:
+
+"Thank you for that list. Now let's code some key passages. Please analyze these three passages according to the codebook. For each passage, provide:
+
+1. PRIMARY CODE (the code that best captures the focus)
+2. SECONDARY CODES (any additional codes that also apply)
+3. JUSTIFICATION (2-3 sentences explaining your choice with explicit text references)
+
+PASSAGE A:
+'I've become like, really good at timing. So I learned pretty quickly that there are a ton of free food events on campus if you know where to look. Like, the environmental club—which I'm in—we have meetings on Thursdays, and there's always pizza. The engineering school does a lot of recruiting events with food. I've gotten to the point where I actually... I check the campus events calendar, and I'm like "okay, where's free food happening this week?"'
+
+PASSAGE B:
+'I feel like I should be fine, you know? Like, I got into Berkeley, I'm doing well in my classes, I'm not like, struggling academically. So the fact that I can't afford food feels like... it shouldn't be my problem. Like, maybe I'm not smart enough with my money, or maybe I should just not be here if I can't afford it. I know that's not rational, but that's how it feels sometimes. Like, there's shame in it.'
+
+PASSAGE C:
+'Why is a food pantry run by students even necessary? Why isn't food adequately covered by financial aid? I use the pantry, and I'm grateful, but I'm also kind of angry about it, you know? Like, the University is obviously aware that students can't afford food—they literally have a pantry—but they're not solving the actual problem.'"
+
+EXPECTED OUTPUT:
+- PASSAGE A: Primary = COPING STRATEGIES (likely)
+- PASSAGE B: Primary = STIGMA AND SHAME (clear emotional focus)
+- PASSAGE C: Primary = INSTITUTIONAL BARRIERS (systemic critique)
+
+WORKSHOP FACILITATION NOTE:
+All three should be straightforward. Use this moment to build consensus on how the codes work. Then introduce ambiguity...
+
+---
+
+STEP 4: ITERATIVE JUSTIFICATION PROMPT – AMBIGUOUS PASSAGE (10 minutes)
+Purpose: Discuss a passage where multiple codes overlap and explore how coding reflects research priorities
+
+TEXT TO PASTE IN GEMINI:
+
+"Excellent. Now let's discuss a more complex passage. Read this carefully:
+
+'And one day after class, Professor Chen like, pulled me aside and asked if everything was okay. And I kind of deflected at first, but she was really kind and persistent—not in a pushy way, but in like, a genuine way. And I ended up kind of venting about my situation. And she didn't like, solve my problems or give me money or anything, but she like, listened, and she made me feel like it wasn't shameful. She was like "this is a real problem, and you're not alone, and there are resources." And she actually connected me with a student organization that focuses on food justice and food access.'
+
+How would you code this passage? What codes apply, and which is PRIMARY?"
+
+EXPECTED OUTPUT:
+Gemini likely identifies:
+- SOCIAL SUPPORT (primary or strong secondary)
+- possibly STIGMA AND SHAME (professor helping her feel less ashamed)
+- possibly FOOD ACCESS RESOURCES (the connection to an organization)
+- possibly AGENCY AND ADVOCACY (the org's focus on food justice)
+
+FOLLOW-UP PROMPT (conditional, based on Gemini's response):
+
+"I agree that SOCIAL SUPPORT is strong here. But let me push back: isn't the emotional arc of this passage about moving from shame to feeling validated? Shouldn't STIGMA AND SHAME be primary since it's showing how support addresses shame?
+
+How would you respond to that argument? Where's the emphasis in the passage?"
+
+WORKSHOP FACILITATION NOTE:
+This prompt teaches that coding is interpretive. There's no single "right" answer. The same passage can be coded different ways depending on whether you're asking "What does this tell us about support systems?" (SOCIAL SUPPORT) or "How does shame prevent students from seeking help?" (STIGMA AND SHAME). This is a crucial teachable moment about how qualitative analysis always involves researcher judgment.
+
+---
+
+STEP 5: RE-CODING FROM A DIFFERENT THEORETICAL FRAME (8 minutes)
+Purpose: Show how theory shapes coding and demonstrate the interpretive nature of qualitative work
+
+TEXT TO PASTE IN GEMINI:
+
+"Now let's do something different. I'm going to ask you to re-code the same passage from a different theoretical perspective.
+
+The passage again:
+'And one day after class, Professor Chen like, pulled me aside and asked if everything was okay. And I kind of deflected at first, but she was really kind and persistent—not in a pushy way, but in like, a genuine way. And I ended up kind of venting about my situation. And she didn't like, solve my problems or give me money or anything, but she like, listened, and she made me feel like it wasn't shameful. She was like "this is a real problem, and you're not alone, and there are resources." And she actually connected me with a student organization that focuses on food justice and food access.'
+
+Now imagine you're coding this data from a CRITICAL PEDAGOGY PERSPECTIVE, where you're interested in HOW STUDENTS DEVELOP CONSCIOUSNESS OF SYSTEMIC INJUSTICE and move from individual blame to collective action. From that frame, how would you code this passage? What would be primary?
+
+And how is this coding different from your earlier analysis?"
+
+EXPECTED OUTPUT:
+From a critical pedagogy lens, Gemini should identify:
+- AGENCY AND ADVOCACY (primary) – Maya moving from isolated shame to joining an organization focused on food justice
+- INSTITUTIONAL BARRIERS (secondary) – implied critique of why the University hasn't addressed this
+- SOCIAL SUPPORT (secondary, but reframed as consciousness-raising)
+
+The key insight: the same passage reveals different patterns depending on the theoretical lens. This is not a bug in qualitative coding; it's a feature. The researcher's theory matters.
+
+WORKSHOP FACILITATION NOTE:
+This demonstrates that qualitative analysis is not objective categorization. It's interpretation in service of a research question. Different questions yield different codes from the same text. This is why dialogical coding with an AI can be powerful—it surfaces these choices explicitly rather than hiding them in unstated assumptions.
+
+---
+
+BONUS: ASKING THE AI TO IDENTIFY GENUINE AMBIGUITY (5 minutes, if time permits)
+Purpose: Have Gemini surface passages that are genuinely hard to code, preparing students for the messiness of real data
+
+TEXT TO PASTE IN GEMINI:
+
+"Looking at the full transcript, identify one or two passages that you think are genuinely ambiguous—where you're not sure which code is primary, or where multiple codes seem equally valid. Explain why each passage is ambiguous. What would you need to know about the researcher's question to decide?"
+
+EXPECTED OUTPUT:
+Possible candidates:
+- The restaurant passage (shame? coping? social support?)
+- The food pantry passage (resources? shame? institutional barriers?)
+- The work-study trade-off (financial strain? academic impact? coping?)
+
+WORKSHOP FACILITATION NOTE:
+This prompt reveals that even AI can identify uncertainty. Good qualitative work acknowledges ambiguity rather than forcing false clarity. A student who says "I'm not sure how to code this passage, and here's why" is doing better qualitative work than a student who applies codes mechanically.
+
+---
+
+SUMMARY OF DEMO STRUCTURE:
+
+Step 1 (5 min):  Role-set and establish expectations
+Step 2 (8 min):  Extract passages for one code
+Step 3 (10 min): Classify straightforward passages
+Step 4 (10 min): Discuss overlapping codes (ambiguity)
+Step 5 (8 min):  Re-code from different theoretical frame
+Bonus (5 min):   Identify genuine ambiguity
+
+TOTAL: ~46 minutes (fits 50-minute session with buffer for discussion)
+
+---
+
+FACILITATION TIPS:
+
+1. BEFORE THE DEMO: Have students read the codebook and practice coding one passage on paper. This creates investment and context.
+
+2. DURING STEP 2: Ask workshop participants: "Did Gemini miss any passages you would have coded as Coping Strategies? Did it include anything you'd code differently?" This creates comparison and critical thinking.
+
+3. DURING STEP 3: Celebrate agreement. "Look, Gemini's coding aligns with our codebook." But then prepare them for complexity in Step 4.
+
+4. DURING STEP 4: This is the pedagogical heart. Frame it as: "Coding is not detecting objective categories. It's making meaningful interpretations that serve your research question. AI can help you make that visible."
+
+5. DURING STEP 5: Emphasize that re-coding from a different frame is not a mistake or contradiction. It's a feature of qualitative work. Different theoretical questions highlight different aspects of the data.
+
+6. DURING BONUS: Normalize ambiguity. "If your data is genuinely ambiguous, that's information. It tells you that your codebook might need refinement, or that your research question needs sharpening."
+
+7. THROUGHOUT: Use dialogue. Ask Gemini follow-up questions. Disagree with it sometimes. Model collaborative thinking, not trust-and-accept thinking.
+
+---
+

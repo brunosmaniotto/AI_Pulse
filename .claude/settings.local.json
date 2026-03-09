@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebSearch",
-      "WebFetch(domain:technology.berkeley.edu)",
-      "WebFetch(domain:github.com)"
-    ]
-  }
-}

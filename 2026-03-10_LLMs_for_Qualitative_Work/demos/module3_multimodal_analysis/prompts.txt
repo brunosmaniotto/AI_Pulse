@@ -1,0 +1,169 @@
+================================================================================
+GEMINI MULTIMODAL PROMPTS: MODULE 3 DEMO
+"The Normalization of Vaping on TikTok"
+================================================================================
+
+Use these prompts sequentially in Gemini to demonstrate multimodal LLM analysis
+of vaping content. Upload images/video first, then paste each prompt below.
+
+================================================================================
+PROMPT 1: STRUCTURED VISUAL OBSERVATION
+================================================================================
+
+For this image, provide detailed observations in these categories:
+
+(1) PHYSICAL SETTING AND ENVIRONMENT
+    - Indoor or outdoor?
+    - Specific location type (bedroom, street, cafe, nature, studio, etc.)
+    - Lighting conditions (natural, artificial, mixed)
+    - Background elements (furniture, objects, landscape)
+
+(2) PEOPLE PRESENT
+    - How many people are visible?
+    - Apparent age range (teen, young adult, adult)
+    - Gender presentation (as visible)
+    - What activity are they engaged in?
+    - Body positioning and posture
+
+(3) OBJECTS VISIBLE
+    - Identify any vaping devices or products (if present)
+    - Device type (e.g., pen-style vape, box mod, pod system)
+    - Visible branding or logos
+    - Other prominent objects in frame
+    - Size/prominence of any vaping products (central focus, background, barely visible?)
+
+(4) VISUAL COMPOSITION
+    - How is the image framed? (Close-up, wide shot, medium shot)
+    - Color palette (bright, muted, filtered, warm, cool)
+    - Any filters or effects applied?
+    - Text overlays, hashtags, or captions visible?
+    - Use of negative space
+    - Symmetry or balance in composition
+
+(5) EMOTIONAL TONE OR MOOD CONVEYED
+    - What feeling or atmosphere does this image project?
+    - Does it feel casual, aspirational, energetic, calm, provocative, social, solitary?
+    - What visual elements contribute to that mood?
+
+(6) POTENTIAL THEMES RELEVANT TO NORMALIZATION
+    - Does this image present vaping as an everyday, normal activity?
+    - Is vaping integrated with other lifestyle activities (socializing, aesthetics, skill)?
+    - What messaging about vaping is present (implicit or explicit)?
+    - Who appears to be the intended audience?
+
+================================================================================
+PROMPT 2: RE-CODING WITH PUBLIC HEALTH LENS
+================================================================================
+
+Now re-analyze this same image from a public health and harm-reduction perspective.
+
+(1) HEALTH MESSAGING ANALYSIS
+    - Is there any health warning, educational content, or cautionary messaging visible?
+    - Are there any acknowledgments of risks (addiction, respiratory impact, nicotine exposure)?
+    - What health information is ABSENT from this image?
+
+(2) NORMALIZATION TECHNIQUES
+    - What visual or narrative strategies normalize vaping as safe or risk-free?
+    - Is vaping presented as a product choice, a lifestyle choice, or a medical tool?
+    - Are there attempts to minimize, hide, or de-emphasize risks?
+
+(3) VULNERABLE POPULATION TARGETING
+    - Are there visual cues that might appeal particularly to youth (color, language, celebrity, trends)?
+    - Does the image present vaping as a status symbol or peer-bonding activity?
+    - What social pressures or aspirations does it invoke?
+
+(4) POTENTIAL HEALTH LITERACY INTERVENTION
+    - How could this image be re-framed to highlight health considerations?
+    - What factual information should counter the implied messaging?
+    - What visual changes would make health risks more salient?
+    - What audience needs warning or education about vaping based on this image?
+
+================================================================================
+PROMPT 3: CROSS-IMAGE COMPARISON
+================================================================================
+
+[ONLY USE THIS PROMPT AFTER UPLOADING 3-4 IMAGES]
+
+Compare these [3-4] images. Please provide:
+
+(1) SHARED VISUAL STRATEGIES
+    - What techniques do these images have in common for presenting vaping?
+    - Are there consistent color palettes, framing styles, or compositional choices?
+    - Do they use similar props, settings, or social contexts?
+    - What overall aesthetic or brand identity emerges across these images?
+
+(2) HOW THEY NORMALIZE VAPING
+    - What is the consistent message across these images about vaping as normal/everyday?
+    - Is vaping presented as solitary or social? Skilled or casual?
+    - Are there lifestyle aspirations or status cues that repeat?
+
+(3) DIFFERENCES AND VARIATION
+    - Where do these images differ in their approach or messaging?
+    - Do some emphasize product features while others emphasize lifestyle?
+    - Are there different audiences targeted across this set?
+    - Do some images present vaping differently (e.g., more health-conscious, more recreational)?
+
+(4) PATTERNS RELEVANT TO THE JMIR STUDY
+    - Based on the paper's framework (which coded for setting, aesthetics, product visibility,
+      social context, text framing, and normalization cues), what patterns emerge?
+    - Which images most strongly normalize vaping?
+    - Which images, if any, include any cautionary or educational elements?
+
+================================================================================
+PROMPT 4: VIDEO ANALYSIS (if using video clip)
+================================================================================
+
+[ONLY USE THIS PROMPT AFTER UPLOADING VIDEO]
+
+Watch this video clip. Provide timestamped observations following this structure:
+
+(1) OVERALL NARRATIVE AND TONE
+    - What is the main story or message of this clip?
+    - Is the tone educational, entertainment-focused, promotional, cautionary, or mixed?
+    - Who appears to be the intended audience?
+
+(2) VISUAL FRAMING OF VAPING
+    - Timestamp: When vaping is first shown? How is it introduced?
+    - Is vaping the central focus or a background element?
+    - What visual emphasis is given to devices, clouds, or techniques?
+    - Are there color filters, slow-motion, or other effects emphasizing the visual appeal?
+
+(3) AUDIO & LANGUAGE CUES
+    - What is said about vaping (if anything)?
+    - Is there music that sets a tone?
+    - Are there health warnings, disclaimers, or educational framing?
+    - What adjectives or language choices describe vaping?
+
+(4) SOCIAL CONTEXT
+    - Is vaping shown as solitary or social?
+    - What is the social setting (performance, casual hangout, competition, etc.)?
+    - Are people smiling, celebrating, bonding around vaping?
+
+(5) SHIFTS IN TONE OR MESSAGING
+    - Does the video's framing of vaping change from beginning to end?
+    - Are there moments of critique or caution?
+    - Does the video present multiple perspectives on vaping?
+
+(6) NORMALIZATION CUES IN MOTION
+    - How is vaping integrated with other activities (talking, moving, performing)?
+    - Is it treated as a normal, casual behavior or as a special/exciting activity?
+    - What role does vaping play in the social dynamics shown?
+
+(7) COMPARISON TO STILL IMAGES
+    - Does motion and audio change the normalization effect compared to the static images we analyzed?
+    - What additional impact do camera movement, editing, and sound have?
+
+================================================================================
+FOLLOW-UP PROMPT (Optional)
+================================================================================
+
+For any image or video, you can ask Gemini to take a critical perspective:
+
+"What might a researcher trained in visual culture criticism or public health
+communication identify in this image that I (as a computer vision model) might
+have missed? What are the limits of my analysis as an AI system?"
+
+This prompts reflection on LLM blindspots and the importance of human
+qualitative coding in conjunction with AI-assisted analysis.
+
+================================================================================
