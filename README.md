@@ -10,7 +10,7 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ## Next Workshop (March 24, 2026): AI for Teaching, Learning and Collaborating
 
-**Tools**: NotebookLM, Khanmigo, Microsoft Study, SciSpace | [Materials](2026-03-24_Teaching_Learning_Collaborating/)
+**Tools**: NotebookLM | [Materials](2026-03-24_Teaching_Learning_Collaborating/)
 
 How can AI help you learn, teach, and work with others? This session explores **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walk through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
 
