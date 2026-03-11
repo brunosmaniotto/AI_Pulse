@@ -8,17 +8,25 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (March 10, 2026): LLMs for Qualitative Work
+## Next Workshop (March 24, 2026): AI for Teaching, Learning and Collaborating
 
-**Tools**: Gemini, NotebookLM | [Materials](2026-03-10_LLMs_for_Qualitative_Work/)
+**Tools**: NotebookLM, Khanmigo, Microsoft Study, SciSpace | [Materials](2026-03-24_Teaching_Learning_Collaborating/)
 
-AI tools have transformed quantitative research workflows — but qualitative researchers have been largely left out of the conversation. This session explores how LLMs fit into qualitative work through five live demos: grounded document analysis with **NotebookLM**, dialogical qualitative coding, multimodal analysis of photos and video, structured text extraction from open-ended responses, and piloting research designs with simulated participants. All demos use **Gemini** (free for Berkeley accounts).
+How can AI help you learn, teach, and work with others? This session explores **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walk through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
 
-We also discussed the unique risks LLMs pose for interpretive work and where human judgment remains essential in the analysis loop.
+We also discuss the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
 
 ---
 
 ## Previous Workshops
+
+### Session 4 (March 10, 2026): LLMs for Qualitative Work
+
+**Tools**: Gemini, NotebookLM | [Materials](Previous%20Workshops/2026-03-10_LLMs_for_Qualitative_Work/)
+
+AI tools have transformed quantitative research workflows — but qualitative researchers have been largely left out of the conversation. This session explored how LLMs fit into qualitative work through five live demos: grounded document analysis with **NotebookLM**, dialogical qualitative coding, multimodal analysis of photos and video, structured text extraction from open-ended responses, and piloting research designs with simulated participants. All demos used **Gemini** (free for Berkeley accounts).
+
+We also discussed the unique risks LLMs pose for interpretive work and where human judgment remains essential in the analysis loop.
 
 ### Session 3 (February 24, 2026): AI for Teaching, Learning and Collaborating
 
