@@ -8,7 +8,7 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (March 24, 2026): AI for Teaching, Learning and Collaborating
+## Next Workshop (March 17, 2026): AI for Teaching, Learning and Collaborating
 
 **Tools**: NotebookLM | [Materials](2026-03-24_Teaching_Learning_Collaborating/)
 
