@@ -8,9 +8,16 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (March 31, 2026): AI Case Studies
+## Next Workshop (March 31, 2026): AI in Science Case Studies
 
-Details coming soon.
+This session is a bit different from our usual format. Instead of demoing specific tools, we walk through six real case studies of researchers using AI in their work — across mathematics, theoretical physics, astronomy, biology, chemistry, and social science. For each case we cover:
+
+- What the research problem was and why it was hard to tackle without AI.
+- The complete setup — which models they used, how they prompted or fine-tuned them, and how AI fit into their workflow.
+- What worked, what didn't, and where human expertise remained essential.
+- What it would take for you to try something similar in your own field.
+
+Our goal is to move beyond "what tools exist" and ask the harder question: what does it actually look like when AI contributes to real research — and where are the limits?
 
 ---
 
