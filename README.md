@@ -2,23 +2,27 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-AI Pulse is UC Berkeley D-Lab's bi-weekly workshop series on AI tools for research and academia. Each 50-minute session features a live demo (~30 min) followed by open discussion (~20 min).
+AI Pulse is UC Berkeley D-Lab's bi-weekly online workshop series on AI tools for research and academia. Each 50-minute session features a live demo (~30 min) followed by open discussion (~20 min).
 
 No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops.
 
 ---
 
-## Next Workshop (March 17, 2026): AI for Teaching, Learning and Collaborating
+## Next Workshop (March 31, 2026): AI Case Studies
 
-**Tools**: NotebookLM | [Materials](2026-03-24_Teaching_Learning_Collaborating/)
-
-How can AI help you learn, teach, and work with others? This session explores **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walk through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
-
-We also discuss the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
+Details coming soon.
 
 ---
 
 ## Previous Workshops
+
+### Session 5 (March 17, 2026): AI for Teaching, Learning and Collaborating
+
+**Tools**: NotebookLM | [Materials](Previous%20Workshops/2026-03-17_Teaching_Learning_Collaborating/)
+
+How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
+
+We also discussed the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
 
 ### Session 4 (March 10, 2026): LLMs for Qualitative Work
 
