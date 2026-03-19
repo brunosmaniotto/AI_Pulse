@@ -1,0 +1,17 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+
+# Keep only compiled PDF, not source
+*.tex
+
+# Figures (embedded in compiled PDF)
+slides/figures/
