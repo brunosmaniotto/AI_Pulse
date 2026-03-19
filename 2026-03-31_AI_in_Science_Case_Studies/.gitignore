@@ -15,3 +15,7 @@
 
 # Figures (embedded in compiled PDF)
 slides/figures/
+
+# Planning files (local only)
+research_notes.md
+slide_plan.md
