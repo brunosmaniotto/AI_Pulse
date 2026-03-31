@@ -10,7 +10,9 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ## Next Workshop (March 31, 2026): AI in Science Case Studies
 
-This session is a bit different from our usual format. Instead of demoing specific tools, we walk through six real case studies of researchers using AI in their work — across mathematics, theoretical physics, astronomy, biology, chemistry, and social science. For each case we cover:
+[Materials](2026-03-31_AI_in_Science_Case_Studies/)
+
+This session is a bit different from our usual format. Instead of demoing specific tools, we walk through six real case studies of researchers using AI in their work — across astronomy, biology, social science, theoretical physics, chemistry, and mathematics. For each case we cover:
 
 - What the research problem was and why it was hard to tackle without AI.
 - The complete setup — which models they used, how they prompted or fine-tuned them, and how AI fit into their workflow.
@@ -65,7 +67,9 @@ The session showed how these tools can save researchers hours on routine program
 
 ---
 
-**Future Sessions**: AI for Data Analysis, Productivity & Workflow, Running Your Own AI, Customizing Your AI (Tentative)
+**Next up — Session 7 (April 14, 2026): Local LLMs: From Download to Deployment** — Install Ollama, run models on your laptop, expand context windows, fine-tune with LoRA on UC Berkeley's NRP cluster, and deploy via HuggingFace.
+
+**Future Sessions**: AI for Data Analysis, Productivity & Workflow, Customizing Your AI (Tentative)
 
 ---
 
