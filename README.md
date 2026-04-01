@@ -10,13 +10,13 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ## Next Workshop (April 14, 2026): Running Your Own AI
 
-This session covers the full lifecycle of running your own AI — from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through HuggingFace. We cover:
+This session covers the full lifecycle of running your own AI: from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through HuggingFace. We cover:
 
 - What a large language model actually is and how it works under the hood.
-- Installing and running a model locally with Ollama — no internet, no subscription, no API key required.
-- Context windows and quantization — what these mean and why they matter for working with real documents.
+- Installing and running a model locally with Ollama. No internet, no subscription, no API key required.
+- Context windows and quantization: what these mean and why they matter for working with real documents.
 - Fine-tuning with LoRA: adapting a model to your domain using your own data.
-- Deploying your model on HuggingFace — pay-per-use cloud inference, and sharing with collaborators.
+- Deploying your model on HuggingFace: pay-per-use cloud inference, and sharing with collaborators.
 
 As a running application, we show how these tools come together to build a personalized writing partner that knows your field's notation, style, and structure.
 
@@ -30,13 +30,13 @@ Our goal is to demystify what's inside these models and show you that customizin
 
 [Materials](Previous%20Workshops/2026-03-31_AI_in_Science_Case_Studies/)
 
-This session walked through six real case studies of researchers who successfully used AI in their scientific work — across astronomy, biology, social science, theoretical physics, chemistry, and mathematics. For each case we covered the complete workflow, how they customized the AI interaction, and where things went wrong.
+This session walked through six real case studies of researchers who successfully used AI in their scientific work, across astronomy, biology, social science, theoretical physics, chemistry, and mathematics. For each case we covered the complete workflow, how they customized the AI interaction, and where things went wrong.
 
 ### Session 5 (March 17, 2026): AI for Teaching, Learning and Collaborating
 
 **Tools**: NotebookLM | [Materials](Previous%20Workshops/2026-03-17_Teaching_Learning_Collaborating/)
 
-How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
+How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents. Answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
 
 We also discussed the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
 
@@ -44,7 +44,7 @@ We also discussed the rise of AI homework agents, AI humanizers, and what they m
 
 **Tools**: Gemini, NotebookLM | [Materials](Previous%20Workshops/2026-03-10_LLMs_for_Qualitative_Work/)
 
-AI tools have transformed quantitative research workflows — but qualitative researchers have been largely left out of the conversation. This session explored how LLMs fit into qualitative work through five live demos: grounded document analysis with **NotebookLM**, dialogical qualitative coding, multimodal analysis of photos and video, structured text extraction from open-ended responses, and piloting research designs with simulated participants. All demos used **Gemini** (free for Berkeley accounts).
+AI tools have transformed quantitative research workflows — but qualitative researchers have been largely left out of the conversation. This session explored how LLMs fit into qualitative work through five live demos: grounded document analysis with **NotebookLM**, dialogical qualitative coding, multimodal analysis of photos and video, structured text extraction from open-ended responses, and piloting research designs with simulated participants.
 
 We also discussed the unique risks LLMs pose for interpretive work and where human judgment remains essential in the analysis loop.
 
@@ -52,7 +52,7 @@ We also discussed the unique risks LLMs pose for interpretive work and where hum
 
 **Tools**: NotebookLM, Khanmigo, Microsoft Study, SciSpace | [Materials](Previous%20Workshops/2026-02-24_Teaching_Learning_Collaborating/)
 
-How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents — answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
+How can AI help you learn, teach, and work with others? This session explored **NotebookLM**, Google's source-grounded AI that generates podcasts, flashcards, study guides, and more from your own documents. Answers come from your sources, not the internet. We walked through 9 live demos covering exam prep, literature synthesis, course material creation, policy navigation, and collaborative research workflows.
 
 We also discussed the rise of AI homework agents, AI humanizers, and what they mean for how we think about assessments.
 
@@ -60,9 +60,9 @@ We also discussed the rise of AI homework agents, AI humanizers, and what they m
 
 **Tools**: Perplexity, Consensus, Elicit, Kosmos | [Materials](Previous%20Workshops/2026-02-10_Scientific_AI/)
 
-General-purpose AI has a citation problem — studies show ChatGPT fabricates roughly 1 in 5 academic references. This session walked through specialized research tools designed to solve this: **Perplexity** for quick context with verified sources, **Consensus** for evidence synthesis across peer-reviewed literature, and **Elicit** for systematic reviews and data extraction.
+General-purpose AI has a citation problem: studies show ChatGPT fabricates roughly 1 in 5 academic references. This session walked through specialized research tools designed to solve this: **Perplexity** for quick context with verified sources, **Consensus** for evidence synthesis across peer-reviewed literature, and **Elicit** for systematic reviews and data extraction.
 
-We also took a first look at **Kosmos**, an autonomous research agent that reads ~1,500 papers and writes ~42,000 lines of code over 12 hours to produce a research report — and discussed when to trust (and not trust) any of these tools.
+We also took a first look at **Kosmos**, an autonomous research agent that reads ~1,500 papers and writes ~42,000 lines of code over 12 hours to produce a research report. We discussed when to trust (and not trust) any of these tools.
 
 ### Session 1 (January 27, 2026): Coding AI
 
