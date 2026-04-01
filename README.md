@@ -8,22 +8,29 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (March 31, 2026): AI in Science Case Studies
+## Next Workshop (April 14, 2026): Running Your Own AI
 
-[Materials](2026-03-31_AI_in_Science_Case_Studies/)
+This session covers the full lifecycle of running your own AI — from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through HuggingFace. We cover:
 
-This session is a bit different from our usual format. Instead of demoing specific tools, we walk through six real case studies of researchers using AI in their work — across astronomy, biology, social science, theoretical physics, chemistry, and mathematics. For each case we cover:
+- What a large language model actually is and how it works under the hood.
+- Installing and running a model locally with Ollama — no internet, no subscription, no API key required.
+- Context windows and quantization — what these mean and why they matter for working with real documents.
+- Fine-tuning with LoRA: adapting a model to your domain using your own data.
+- Deploying your model on HuggingFace — pay-per-use cloud inference, and sharing with collaborators.
 
-- What the research problem was and why it was hard to tackle without AI.
-- The complete setup — which models they used, how they prompted or fine-tuned them, and how AI fit into their workflow.
-- What worked, what didn't, and where human expertise remained essential.
-- What it would take for you to try something similar in your own field.
+As a running application, we show how these tools come together to build a personalized writing partner that knows your field's notation, style, and structure.
 
-Our goal is to move beyond "what tools exist" and ask the harder question: what does it actually look like when AI contributes to real research — and where are the limits?
+Our goal is to demystify what's inside these models and show you that customizing AI for your own research is something you can do with free tools and a Berkeley computing account.
 
 ---
 
 ## Previous Workshops
+
+### Session 6 (March 31, 2026): AI in Science Case Studies
+
+[Materials](Previous%20Workshops/2026-03-31_AI_in_Science_Case_Studies/)
+
+This session walked through six real case studies of researchers who successfully used AI in their scientific work — across astronomy, biology, social science, theoretical physics, chemistry, and mathematics. For each case we covered the complete workflow, how they customized the AI interaction, and where things went wrong.
 
 ### Session 5 (March 17, 2026): AI for Teaching, Learning and Collaborating
 
@@ -66,8 +73,6 @@ Our inaugural session introduced AI-powered coding assistants that work directly
 The session showed how these tools can save researchers hours on routine programming tasks, even if you're not a software developer.
 
 ---
-
-**Next up — Session 7 (April 14, 2026): Local LLMs: From Download to Deployment** — Install Ollama, run models on your laptop, expand context windows, fine-tune with LoRA on UC Berkeley's NRP cluster, and deploy via HuggingFace.
 
 **Future Sessions**: AI for Data Analysis, Productivity & Workflow, Customizing Your AI (Tentative)
 
