@@ -10,6 +10,8 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ## Next Workshop (April 14, 2026): Running Your Own AI
 
+[Materials](2026-04-14_Running_Own_AI/)
+
 This session covers the full lifecycle of running your own AI: from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through HuggingFace. We cover:
 
 - What a large language model actually is and how it works under the hood.

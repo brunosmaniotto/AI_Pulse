@@ -1,0 +1,25 @@
+# Kubernetes Service exposing the vLLM endpoint within the cluster.
+# Apply with: kubectl apply -f nrp_vllm_service.yaml
+#
+# Access from within the cluster:
+#   curl http://physics-llm-service.berkeley-dlab.svc.cluster.local:5000/v1/models
+#
+# Access from your local machine (for testing/screenshots):
+#   kubectl port-forward svc/physics-llm-service 8000:5000 -n berkeley-dlab
+#   curl http://localhost:8000/v1/models
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: physics-llm-service
+  namespace: berkeley-dlab
+  labels:
+    app: physics-llm
+spec:
+  selector:
+    app: physics-llm
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000
+  type: ClusterIP

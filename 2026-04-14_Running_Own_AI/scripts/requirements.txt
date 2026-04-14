@@ -1,0 +1,23 @@
+# Python dependencies for QLoRA fine-tuning workshop
+# Install with: pip install -r requirements.txt
+
+# Data collection
+arxiv                   # arXiv API client for downloading paper metadata
+tqdm                    # Progress bars
+
+# Deep learning core
+torch                   # PyTorch — the ML framework
+transformers            # HuggingFace Transformers — model loading and training
+datasets                # HuggingFace Datasets — data loading utilities
+accelerate              # HuggingFace Accelerate — distributed/mixed-precision training
+
+# QLoRA-specific
+peft                    # Parameter-Efficient Fine-Tuning (LoRA adapters)
+trl                     # Transformer Reinforcement Learning (SFTTrainer)
+bitsandbytes            # 4-bit quantization support
+
+# Model sharing
+huggingface_hub         # Upload/download models from HuggingFace Hub
+
+# NRP hosted LLM API access
+openai                  # OpenAI-compatible client (works with NRP, Ollama, vLLM, etc.)

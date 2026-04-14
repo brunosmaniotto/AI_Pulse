@@ -1,0 +1,80 @@
+# Kubernetes Job for QLoRA fine-tuning on NRP Nautilus.
+# This is the "production" approach — a batch job with a GPU.
+#
+# Prerequisites:
+#   1. Create the PVC:  kubectl apply -f nrp_pvc.yaml
+#   2. Create the HF token secret:
+#      kubectl create secret generic hf-token \
+#        --from-literal=token=hf_YOUR_TOKEN_HERE \
+#        -n berkeley-dlab
+#   3. Copy training data to the PVC (use a helper pod or JupyterHub)
+#
+# Submit with:  kubectl apply -f nrp_training_job.yaml
+# Monitor with: kubectl logs -f job/qlora-physics-finetune -n berkeley-dlab
+
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: qlora-physics-finetune
+  namespace: berkeley-dlab
+spec:
+  backoffLimit: 2
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: trainer
+          image: nvcr.io/nvidia/pytorch:24.01-py3
+          command:
+            - /bin/bash
+            - -c
+            - |
+              set -e
+              echo "=== Installing dependencies ==="
+              pip install -q transformers datasets accelerate peft trl bitsandbytes huggingface_hub
+
+              echo "=== GPU Info ==="
+              nvidia-smi --query-gpu=name,memory.total --format=csv,noheader
+
+              echo "=== Starting training ==="
+              python /workspace/scripts/train_qlora.py \
+                --model Qwen/Qwen2.5-3B-Instruct \
+                --train-data /workspace/data/train.jsonl \
+                --val-data /workspace/data/val.jsonl \
+                --output-dir /workspace/output/physics-adapter \
+                --epochs 3 \
+                --batch-size 4 \
+                --lr 2e-4
+
+              echo "=== Job finished ==="
+              ls -lh /workspace/output/physics-adapter/
+          resources:
+            requests:
+              cpu: "4"
+              memory: "16Gi"
+              nvidia.com/gpu: 1
+            limits:
+              cpu: "8"
+              memory: "24Gi"
+              nvidia.com/gpu: 1
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+            - name: dshm
+              mountPath: /dev/shm
+          env:
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-token
+                  key: token
+            - name: HF_HOME
+              value: /workspace/.cache/huggingface
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: qlora-training-pvc
+        - name: dshm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 2Gi

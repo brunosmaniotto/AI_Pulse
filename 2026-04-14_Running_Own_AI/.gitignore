@@ -1,0 +1,22 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (do not track)
+*.gguf
+*.bin
+models/
+
+# Training data (regenerate with download_arxiv.py + prepare_training_data.py)
+scripts/data/abstracts/
+scripts/data/*.jsonl

@@ -1,0 +1,102 @@
+# vLLM deployment for serving the fine-tuned physics adapter on NRP Nautilus.
+#
+# This creates a persistent OpenAI-compatible API endpoint that serves both
+# the base Llama 3.2 3B model and the physics LoRA adapter.
+#
+# Prerequisites:
+#   1. The LoRA adapter must be saved to the PVC at /models/physics-adapter/
+#      (copy from the training job output, or download from HuggingFace)
+#   2. Create the HF token secret (same as training job)
+#
+# Deploy with:  kubectl apply -f nrp_vllm_deployment.yaml
+# Check status: kubectl get pods -l app=physics-llm -n berkeley-dlab
+# View logs:    kubectl logs -l app=physics-llm -n berkeley-dlab
+#
+# Test locally:
+#   kubectl port-forward svc/physics-llm-service 8000:8000 -n berkeley-dlab
+#   curl http://localhost:8000/v1/models
+
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: physics-llm-vllm
+  namespace: berkeley-dlab
+  labels:
+    app: physics-llm
+spec:
+  replicas: 1
+  serviceName: physics-llm-service
+  selector:
+    matchLabels:
+      app: physics-llm
+  template:
+    metadata:
+      labels:
+        app: physics-llm
+    spec:
+      containers:
+        - name: vllm
+          image: vllm/vllm-openai:latest
+          args:
+            - "--model"
+            - "meta-llama/Llama-3.2-3B-Instruct"
+            - "--enable-lora"
+            - "--lora-modules"
+            - "physics-adapter=/models/physics-adapter"
+            - "--max-lora-rank"
+            - "16"
+            - "--port"
+            - "5000"
+            - "--max-model-len"
+            - "4096"
+            - "--gpu-memory-utilization"
+            - "0.90"
+            - "--enable-prefix-caching"
+          ports:
+            - containerPort: 5000
+              name: http
+          resources:
+            requests:
+              cpu: "4"
+              memory: "12Gi"
+              nvidia.com/gpu: 1
+            limits:
+              cpu: "8"
+              memory: "16Gi"
+              nvidia.com/gpu: 1
+          volumeMounts:
+            - name: model-storage
+              mountPath: /models
+            - name: hf-cache
+              mountPath: /root/.cache/huggingface
+            - name: dshm
+              mountPath: /dev/shm
+          env:
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-token
+                  key: token
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            initialDelaySeconds: 120
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 5000
+            initialDelaySeconds: 180
+            periodSeconds: 30
+      volumes:
+        - name: model-storage
+          persistentVolumeClaim:
+            claimName: qlora-training-pvc
+        - name: hf-cache
+          emptyDir:
+            sizeLimit: 10Gi
+        - name: dshm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 2Gi

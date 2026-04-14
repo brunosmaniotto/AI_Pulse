@@ -1,0 +1,17 @@
+# PersistentVolumeClaims for training data and model output on NRP Nautilus.
+# Apply with: kubectl apply -f nrp_pvc.yaml
+#
+# Replace berkeley-dlab with your NRP namespace.
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: qlora-training-pvc
+  namespace: berkeley-dlab
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi          # Enough for model cache + training data + adapter output
+  storageClassName: rook-ceph-block
