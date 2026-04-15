@@ -8,25 +8,25 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (April 14, 2026): Running Your Own AI
+## Next Workshop (April 28, 2026): What's New in AI — A 2026 Recap
 
-[Materials](2026-04-14_Running_Own_AI/)
+We wrap this semester's AI Pulse with a tour of the new hot topics in 2026:
 
-This session covers the full lifecycle of running your own AI: from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through HuggingFace. We cover:
+- **Agentic AI**: how AI is now able to use your computer for tasks beyond coding and chatting, and the risks associated with it.
+- **Plugins, skills, and MCP**: how to build and use public workflows for specific use cases.
+- **Autonomous AI scientists**: what Sakana's AI Scientist, Karpathy's AutoResearch, and HKU's AI-Researcher actually achieved, and what it means for research.
 
-- What a large language model actually is and how it works under the hood.
-- Installing and running a model locally with Ollama. No internet, no subscription, no API key required.
-- Context windows and quantization: what these mean and why they matter for working with real documents.
-- Fine-tuning with LoRA: adapting a model to your domain using your own data.
-- Deploying your model on HuggingFace: pay-per-use cloud inference, and sharing with collaborators.
-
-As a running application, we show how these tools come together to build a personalized writing partner that knows your field's notation, style, and structure.
-
-Our goal is to demystify what's inside these models and show you that customizing AI for your own research is something you can do with free tools and a Berkeley computing account.
+Whether you've attended every session or this is your first, this workshop is designed to leave you with a clear picture of where AI tools stand today and what's worth paying attention to next.
 
 ---
 
 ## Previous Workshops
+
+### Session 7 (April 14, 2026): Running Your Own AI
+
+[Materials](Previous%20Workshops/2026-04-14_Running_Own_AI/)
+
+This session covered the full lifecycle of running your own AI: from downloading a model to your laptop, to fine-tuning it on a server, to deploying it in the cloud through Hugging Face. We covered what a large language model actually is and how it works under the hood, installing and running a model locally with **Ollama** (no internet, subscription, or API key required), context windows and quantization, and fine-tuning with **LoRA** on the free **National Research Platform** GPU cluster. As a running application, we built a personalized writing partner that knows a physics subfield's notation, style, and structure.
 
 ### Session 6 (March 31, 2026): AI in Science Case Studies
 

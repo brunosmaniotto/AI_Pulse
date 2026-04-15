@@ -117,13 +117,13 @@
         \begin{column}{0.42\textwidth}
             \begin{itemize}
                 \vspace{0.3em}
-                \item LLMs are a type of \textbf{neural network}.
+                \item LLMs are a type of neural network.
                 \vspace{0.3em}
-                \item Neural networks are made of \textbf{layers}.
+                \item Neural networks are made of layers.
                 \vspace{0.3em}
                 \item Learning from raw data (pixels) is very hard.
                 \vspace{0.3em}
-                \item Each layer models increasingly \textbf{abstract features}: edges, contours, object parts, identity.
+                \item Each layer models increasingly abstract features: edges, contours, object parts, identity.
                 \vspace{0.3em}
                 \item \textbf{Parameters:} the total count of numbers across all layers. More layers, more parameters.
             \end{itemize}
@@ -140,20 +140,20 @@
         \begin{column}{0.62\textwidth}
             \begin{itemize}
                 \vspace{0.3em}
-                \item These models learn \textbf{statistical patterns}, not \textbf{concepts}.
+                \item These models learn statistical patterns, not concepts.
                 \vspace{0.3em}
                 \item More layers means more complex features: from edges to shapes to objects, from words to phrases to meaning.
                 \vspace{0.3em}
-                \item Adding layers changes how the network \textbf{thinks}, not what it knows.
+                \item Adding layers changes how the network thinks, not what it knows.
                 \vspace{0.3em}
-                \item Today: \textbf{fine-tuning} (changing how it thinks). Not RAG (changing what it knows).
+                \item Today: fine-tuning (changing how it thinks). Not RAG (changing what it knows).
                 \vspace{0.3em}
-                \item This is why LLMs \textbf{hallucinate}: they produce statistically plausible text, not verified facts.
+                \item This is why LLMs hallucinate: they produce statistically plausible text, not verified facts.
             \end{itemize}
         \end{column}
         \begin{column}{0.35\textwidth}
             \textbf{Ribeiro et al.\ (2016):}\\
-            A husky/wolf classifier was detecting \textbf{snow in the background}, not the animal.
+            A husky/wolf classifier was detecting snow in the background, not the animal.
 
                 \includegraphics[width=1.1\textwidth,clip,trim=30 652 340 55,page=1]{figures/ribeiro2016_fig11_husky_wolf.pdf}\\
                 {\scriptsize Fig.~11, \href{https://arxiv.org/abs/1602.04938}{arXiv:1602.04938}}
@@ -163,7 +163,7 @@
 
 % ===== SLIDE 6: From Images to Language =====
 \begin{frame}{From Images to Language}
-    A \textbf{Large Language Model (LLM)} predicts the next word based on patterns learned from massive text data. Not a database, not a search engine: a \textbf{pattern completer}.
+    A Large Language Model (LLM) predicts the next word based on patterns learned from massive text data. Not a database, not a search engine: a pattern completer.
 
     \vspace{0.8em}
     \begin{center}
@@ -198,7 +198,7 @@
     You can download an LLM and run it on your laptop: no internet, no account, no subscription.
 
     \vspace{0.8em}
-    \textbf{Ollama} is a free, open-source app that downloads and runs LLMs on your machine.
+    Ollama is a free, open-source app that downloads and runs LLMs on your machine.
 
     \vspace{0.8em}
     \textbf{Install:}
@@ -298,7 +298,7 @@ curl -fsSL https://ollama.com/install.sh | sh
     Paragraph-by-paragraph assistance works great with small models that fit on virtually any modern laptop (e.g., Llama 3.2 3B, just 2 GB).
 
     \vspace{0.8em}
-    But what if you want the model to reference something you wrote earlier in your paper? It can't. The model can only see $\sim$\textbf{3 pages} of text (4,096 tokens by default).
+    But what if you want the model to reference something you wrote earlier in your paper? It can't. The model can only see $\sim$3 pages of text (4,096 tokens by default).
 
     \vspace{0.5em}
     \begin{itemize}
@@ -445,7 +445,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
             \vspace{0.5em}
             \begin{tcolorbox}[colback=red!5, colframe=red!40, boxrule=0.5pt, arc=2pt]
-                Update \textbf{all} 3 billion parameters
+                Update all 3 billion parameters
 
                 \vspace{0.3em}
                 {\small
@@ -462,7 +462,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
             \vspace{0.5em}
             \begin{tcolorbox}[colback=green!5, colframe=green!40, boxrule=0.5pt, arc=2pt]
-                Freeze original, add \textbf{small} trainable layers
+                Freeze original, add small trainable layers
 
                 \vspace{0.3em}
                 {\small
@@ -510,7 +510,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 % ===== SLIDE 24: Running on NRP JupyterHub =====
 \begin{frame}{Accessing NRP}
     \hypertarget{nrp-access}{}
-    \textbf{The National Research Platform (NRP)} is a free, NSF-funded GPU compute platform shared across US universities, including Berkeley.
+    The National Research Platform (NRP) is a free, NSF-funded GPU compute platform shared across US universities, including Berkeley.
 
     \vspace{0.5em}
     \textbf{Get access:} Create a portal account with CalNet, then request a namespace in the Nautilus Support room on Matrix. Approval typically takes hours.
@@ -520,7 +520,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
     \vspace{0.5em}
     \begin{tcolorbox}[colback=red!5, colframe=red!40, boxrule=0.5pt, arc=2pt, fontupper=\small]
-        \textbf{Warning --- Pod Reclamation:} NRP is a shared cluster. Your JupyterHub pod can be \textbf{killed without warning} if a higher-priority job needs the GPU. Our training took 3 attempts before finishing!\\[0.3em]
+        \textbf{Warning --- Pod Reclamation:} NRP is a shared cluster. Your JupyterHub pod can be killed without warning if a higher-priority job needs the GPU. Our training took 3 attempts before finishing!\\[0.3em]
         \textbf{Protect yourself:} save checkpoints frequently and back up outputs immediately.
     \end{tcolorbox}
 
@@ -533,7 +533,7 @@ curl -fsSL https://ollama.com/install.sh | sh
     The Hugging Face ecosystem handles the heavy lifting. At a high level:
 
     \vspace{0.5em}
-    \textbf{Load} a pretrained model in 4-bit $\rightarrow$ \textbf{attach} a small LoRA adapter $\rightarrow$ \textbf{train} on your data $\rightarrow$ \textbf{save} the adapter ($\sim$100 MB).
+    Load a pretrained model in 4-bit $\rightarrow$ attach a small LoRA adapter $\rightarrow$ train on your data $\rightarrow$ save the adapter ($\sim$100 MB).
 
     \vspace{0.5em}
     That's $\sim$50 lines of Python. You don't need to understand every hyperparameter to get started.
@@ -630,7 +630,7 @@ curl -fsSL https://ollama.com/install.sh | sh
     You trained a model. It lives on an NRP node. Now what?
 
     \vspace{0.6em}
-    \textbf{\href{https://huggingface.co}{Hugging Face}} = GitHub for AI models. Upload the adapter ($\sim$130 MB) once, anyone can pull it down.
+    \href{https://huggingface.co}{Hugging Face} = GitHub for AI models. Upload the adapter ($\sim$130 MB) once, anyone can pull it down.
 
     \vspace{0.5em}
     \begin{lstlisting}[language=bash]
@@ -672,7 +672,7 @@ hf upload brunosmaniotto/condmat-qwen25-qlora-fullpapers \
     \end{table}
 
     \vspace{0.5em}
-    \textbf{Key:} Berkeley provides \textbf{Colab Pro} for free --- gives you T4/V100 GPUs and longer runtimes.
+    \textbf{Key:} Berkeley provides Colab Pro for free --- gives you T4/V100 GPUs and longer runtimes.
 
     \vspace{0.5em}
     For most researchers: start with Ollama locally, use Colab for collaboration.
