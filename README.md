@@ -8,19 +8,17 @@ No prior experience with AI tools required! Check out D-Lab's [Workshop Catalog]
 
 ---
 
-## Next Workshop (April 28, 2026): What's New in AI — A 2026 Recap
-
-We wrap this semester's AI Pulse with a tour of the new hot topics in 2026:
-
-- **Agentic AI**: how AI is now able to use your computer for tasks beyond coding and chatting, and the risks associated with it.
-- **Plugins, skills, and MCP**: how to build and use public workflows for specific use cases.
-- **Autonomous AI scientists**: what Sakana's AI Scientist, Karpathy's AutoResearch, and HKU's AI-Researcher actually achieved, and what it means for research.
-
-Whether you've attended every session or this is your first, this workshop is designed to leave you with a clear picture of where AI tools stand today and what's worth paying attention to next.
+The Spring 2026 series concluded on April 28, 2026. Stay tuned for future seasons.
 
 ---
 
 ## Previous Workshops
+
+### Session 8 (April 28, 2026): What's New in AI: A 2026 Recap
+
+[Materials](Previous%20Workshops/2026-04-28_Whats_New_in_AI/)
+
+The Spring 2026 wrap-up. This session toured what changed in 2026 across three acts: what happened in the last few months (MCP and customizable AI through Skills and Artifacts, agents that act on their own with Claude Code and OpenClaw, automated research from Karpathy and Sakana, and Anthropic's expansion into design, consulting, healthcare, and finance), what's happening now (Anthropic's Mythos and Project Glasswing, the AI-for-math wave, and AI's broader societal footprint in defense and energy), and what the future looks like (the centralization debate and post-LLM architectures including world models and Ineffable Intelligence).
 
 ### Session 7 (April 14, 2026): Running Your Own AI
 
