@@ -74,10 +74,6 @@ The Spring 2026 wrap-up. This session toured what changed in 2026 across three a
 
 ---
 
-**Future Sessions**: AI for Data Analysis, Productivity & Workflow, Customizing Your AI (Tentative)
-
----
-
 ## Resources
 
 - [D-Lab](https://dlab.berkeley.edu/)
